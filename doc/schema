@@ -1,0 +1,11 @@
+Dataset
+
+Pipeline
+
+
+Pipeline consists of a set of stages
+
+We create a pipeline object
+We ask the pipeline object for a file to process
+
+Pipeline keeps track of which processes are working on what data
