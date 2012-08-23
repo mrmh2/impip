@@ -1,0 +1,11 @@
+Thoughts:
+Need to be able to define a pipeline
+Add metadata throughout process
+
+Project file
+Contains locations of directories
+
+Data structures:
+
+Metadata
+Filter (takes image files, control files, metadata files, produces image files, control files, metadata files)
