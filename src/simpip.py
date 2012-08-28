@@ -14,7 +14,6 @@
 
 import pipeline
 
-
 filename = "data/ex01/stage4/EditSegmentation2D_001343216175_ExpID3002_TL010_plantD_cropped.png"
 
 pl = pipeline.Pipeline("Pavement cells")

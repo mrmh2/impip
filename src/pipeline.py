@@ -92,14 +92,26 @@ class ProcessStage:
     def set_output_dir(self, outdir):
         self.output_dir = outdir
 
+    def execute(self, input_filename, output_filename):
+        import rotate
+        rotate.process(input_filename, output_filename)
+
     def run(self, input_filename, output_prefix):
         # TODO - split this up
         print "Running processing stage %s on %s" % (self.name, input_filename)
         in_file, in_ext = os.path.splitext(os.path.basename(input_filename))
         output_filename = in_file + '.' + self.ext
         output_path = os.path.join(output_prefix, squash_name(self.output_dstage.name))
+        # TODO - probably do this elsewhere
+        mkdir_p(output_path)
         output_fullname = os.path.join(output_path, output_filename)
         print "  I will create %s" % output_fullname
+
+        if os.path.isfile(output_fullname):
+            print "    Output file already exists"
+        else:
+            print "    File does not exist"
+            self.execute(input_filename, output_fullname)
 
 class Connector:
     def __init__(self, dfrom, dto, process):
