@@ -129,8 +129,9 @@ class DataTrack:
     def set_data_dir(self, dirname):
         self.data_dir = dirname
 
-    def import_file(self, filename, dstage):
+    def import_file(self, filename, dstage_name):
         print "Importing %s" % filename
+        dstage = self.pipeline.dstages[dstage_name]
         du = DataUnit(dstage)
         du.set_filename(filename)
 
