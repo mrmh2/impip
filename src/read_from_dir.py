@@ -33,10 +33,15 @@ def data_tracks_from_path(data_dir, pl):
 
 def main():
     pl = simpip.create_pipeline()
+    dataset_name = 'newexp'
+    ds = pipeline.DataSet(dataset_name, pl)
     data_dir = 'data/newexp'
     dts = data_tracks_from_path(data_dir, pl)
-    for dt in dts:
-        pl.run(dts[dt])
+    for dtn in dts:
+        #pl.run(dts[dt])
+        ds.add_data_track(dts[dtn])
+
+    pl.run(ds)
 
 if __name__ == '__main__':
     main()

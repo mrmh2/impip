@@ -40,18 +40,19 @@ class Pipeline:
     def connect(self, dstage1, pstage, dstage2):
         dstage1.connect(pstage, dstage2)
 
-
-    def run(self, datatrack):
+    def run(self, dataset):
         print "pipeline.run()"
-        for du_filename in datatrack.dunits:
-            du = datatrack.dunits[du_filename]
-            print "  Processing unit %s" % du.filename
-            ds = du.datastage
-            print "    at stage %s" % ds.name
-            ps = ds.output_pstage
-            if ps:
-                print "    has pstage, %s" % ps.name
-                ps.run(du.filename, datatrack.data_dir)
+        for dtn in dataset.dtracks:
+            datatrack = dataset.dtracks[dtn]
+            for du_filename in datatrack.dunits:
+                du = datatrack.dunits[du_filename]
+                print "  Processing unit %s" % du.filename
+                ds = du.datastage
+                print "    at stage %s" % ds.name
+                ps = ds.output_pstage
+                if ps:
+                    print "    has pstage, %s" % ps.name
+                    ps.run(du.filename, datatrack.data_dir)
 
 class DataStage:
     def __init__(self, name):
@@ -152,3 +153,12 @@ class DataTrack:
 
     def update():
         pass
+
+class DataSet:
+    def __init__(self, name, pipeline):
+        self.name = name
+        self.pipeline = pipeline
+        self.dtracks = {}
+
+    def add_data_track(self, dtrack):
+        self.dtracks[dtrack.name] = dtrack

@@ -3,8 +3,10 @@ TARGET: Simple two step pipeline
  ST1: Store and restore pipeline
 TARGET: Saving and loading pipelines and data structures/units
 
-TODO: Better printing/loggin
+TODO: Better printing/logging
 TODO: Dataset class (which should take some of pipeline's current functionality)
+TODO: Smart loading of pipeline stage modules
+TODO: GetLnumbers pipeline stage
 TODO: Process stages should have function that returns name for next data stage
 TODO: Think about data structures
 TODO: Multiple processing stages per data stage, multiple data stages per processing stage
