@@ -18,7 +18,7 @@ def data_tracks_from_path(data_dir, pl):
                 dt_name = get_prefix(f)
                 if dt_name not in dts:
                     #print "Creating %s" % dt_name
-                    dts[dt_name] = pipeline.DataTrack(dt_name, pl)
+                    dts[dt_name] = pipeline.DataTrack(dt_name, pl, data_dir)
                 ds = pl.dstages[ds_name]
                 du = pipeline.DataUnit(ds)
                 du.set_filename(os.path.join(ds_path, f))
@@ -31,18 +31,19 @@ def data_tracks_from_path(data_dir, pl):
 
     return dts
 
-def main():
+def dataset_from_dir(dataset_name, data_dir):
     pl = simpip.create_pipeline()
-    dataset_name = 'newexp'
     ds = pipeline.DataSet(dataset_name, pl)
-    data_dir = 'data/newexp'
     dts = data_tracks_from_path(data_dir, pl)
     for dtn in dts:
-        #pl.run(dts[dt])
         ds.add_data_track(dts[dtn])
 
-    pl.run(ds)
-    #ds.display()
+    return ds
 
-if __name__ == '__main__':
-    main()
+def get_data_files(dataset_name):
+    dir_name = 'data'
+    data_dir = os.path.join(dir_name, dataset_name)
+    ds = dataset_from_dir(dataset_name, data_dir)
+    d = ds.get_data()
+    
+    return d

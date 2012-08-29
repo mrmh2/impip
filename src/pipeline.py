@@ -3,8 +3,7 @@
 import os, errno, shutil
 
 def mprint(string):
-    pass
-    #print string
+    print string
 
 def mkdir_p(path):
     try:
@@ -51,7 +50,7 @@ class Pipeline:
             for du_filename in datatrack.dunits:
                 du = datatrack.dunits[du_filename]
                 mprint("  Processing unit %s" % du.filename)
-                ds = du.datastage
+                ds = du.dstage
                 mprint("    at stage %s" % ds.name)
                 ps = ds.output_pstage
                 if ps:
@@ -124,13 +123,13 @@ class Connector:
         pass
 
 class DataTrack:
-    def __init__(self, name, pipeline):
+    def __init__(self, name, pipeline, data_dir):
         self.name = name
         self.prefix = name
         self.pipeline = pipeline
         self.dunits = {}
 
-        self.set_data_dir('data/newexp')
+        self.set_data_dir(data_dir)
 
     def set_data_dir(self, dirname):
         self.data_dir = dirname

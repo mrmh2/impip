@@ -3,6 +3,7 @@ TARGET: Simple two step pipeline
  ST1: Store and restore pipeline
 TARGET: Saving and loading pipelines and data structures/units
 
+TODO: Reorganise utility programs
 TODO: Multiple processing stages per data stage, multiple data stages per processing stage
 TODO: Multiple inputs for an output
 TODO: GetLnumbers pipeline stage
