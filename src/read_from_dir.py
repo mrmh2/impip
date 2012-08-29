@@ -42,6 +42,7 @@ def main():
         ds.add_data_track(dts[dtn])
 
     pl.run(ds)
+    #ds.display()
 
 if __name__ == '__main__':
     main()

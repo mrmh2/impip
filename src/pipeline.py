@@ -2,6 +2,10 @@
 
 import os, errno, shutil
 
+def mprint(string):
+    pass
+    #print string
+
 def mkdir_p(path):
     try:
         os.makedirs(path)   
@@ -46,12 +50,12 @@ class Pipeline:
             datatrack = dataset.dtracks[dtn]
             for du_filename in datatrack.dunits:
                 du = datatrack.dunits[du_filename]
-                print "  Processing unit %s" % du.filename
+                mprint("  Processing unit %s" % du.filename)
                 ds = du.datastage
-                print "    at stage %s" % ds.name
+                mprint("    at stage %s" % ds.name)
                 ps = ds.output_pstage
                 if ps:
-                    print "    has pstage, %s" % ps.name
+                    mprint("    has pstage, %s" % ps.name)
                     ps.run(du.filename, datatrack.data_dir)
 
 class DataStage:
@@ -81,11 +85,12 @@ class DataUnit:
             self.filename = filename
 
 class ProcessStage:
-    def __init__(self, name):
+    def __init__(self, name, filtname):
         self.command = None
         self.fnmapping = None
         self.name = name
         self.ext = 'png'
+        self.filtname = filtname
 
     def set_output(self, dstage):
         self.output_dstage = dstage
@@ -94,24 +99,24 @@ class ProcessStage:
         self.output_dir = outdir
 
     def execute(self, input_filename, output_filename):
-        import rotate
-        rotate.process(input_filename, output_filename)
+        pfilt = __import__(self.filtname)
+        pfilt.process(input_filename, output_filename)
 
     def run(self, input_filename, output_prefix):
         # TODO - split this up
-        print "Running processing stage %s on %s" % (self.name, input_filename)
+        mprint("Running processing stage %s on %s" % (self.name, input_filename))
         in_file, in_ext = os.path.splitext(os.path.basename(input_filename))
         output_filename = in_file + '.' + self.ext
         output_path = os.path.join(output_prefix, squash_name(self.output_dstage.name))
         # TODO - probably do this elsewhere
         mkdir_p(output_path)
         output_fullname = os.path.join(output_path, output_filename)
-        print "  I will create %s" % output_fullname
+        mprint("  I will create %s" % output_fullname)
 
         if os.path.isfile(output_fullname):
-            print "    Output file already exists"
+            mprint("    Output file already exists")
         else:
-            print "    File does not exist"
+            mprint("    File does not exist")
             self.execute(input_filename, output_fullname)
 
 class Connector:
@@ -162,3 +167,14 @@ class DataSet:
 
     def add_data_track(self, dtrack):
         self.dtracks[dtrack.name] = dtrack
+
+    def display(self):
+        print "<=%s=>" % self.name
+        for dsn in self.pipeline.dstages:
+            print dsn,
+        print ""
+
+        for dtn in self.dtracks:
+            print "DTN: %s" % dtn
+            for dun in self.dtracks[dtn].dunits:
+                print "  DTU: %s" % dun
