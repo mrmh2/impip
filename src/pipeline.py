@@ -72,7 +72,7 @@ class DataStage:
 
 class DataUnit:
     def __init__(self, datastage):
-        self.datastage = datastage
+        self.dstage = datastage
 
     def __repr__(self):
         return "DataUnit, filename: %s" % self.filename
@@ -156,6 +156,14 @@ class DataTrack:
     def add_data_unit(self, dunit):
         self.dunits[dunit.filename] = dunit
 
+    def get_data(self):
+        d = {}
+
+        for dun in self.dunits:
+            d[self.dunits[dun].dstage.name] = dun
+
+        return d
+
     def update():
         pass
 
@@ -178,3 +186,11 @@ class DataSet:
             print "DTN: %s" % dtn
             for dun in self.dtracks[dtn].dunits:
                 print "  DTU: %s" % dun
+
+    def get_data(self):
+        d = {}
+
+        for dtn in self.dtracks:
+            d[dtn] = self.dtracks[dtn].get_data()
+
+        return d
