@@ -21,25 +21,18 @@ def myfil(f):
 
 def pngfil(f):
     b, e = os.path.splitext(f)
-    print e
     if e == '.png': return True
     else: return False
 
-def do_stuff(importdir, importpath, i1, i2):
+def do_stuff_n(importdir, importpath):
 
-    #files = filter(myfil, os.listdir(import_dir))
-    ifiles = sorted_nicely(os.listdir(import_dir))
-    files = filter(pngfil, ifiles)
-
-    #for i in range(0, len(files)):
-    #    print "T%02d.png" % i
+    ifiles = sorted_nicely(filter(pngfil, os.listdir(import_dir)))
+    files = filter(myfil, ifiles)
 
     fnames = ["T%02d.png" % i for i in range(0, len(files))]
 
     ffiles = [os.path.join(import_dir, f) for f in files]
     tofiles = [os.path.join(importpath, f) for f in fnames]
-    #tofiles = [os.path.join(importpath, f[i1:-i2] + '.png') for f in files]
-    #tofiles = [conv_name(importpath, f, i1, i2) for f in files]
 
     fn = zip(ffiles, tofiles)
     
@@ -47,36 +40,17 @@ def do_stuff(importdir, importpath, i1, i2):
         print 'cp', f, t
         shutil.copy(f, t)
 
-def do_stuff_n(importdir, importpath):
-
-    ifiles = sorted_nicely(os.listdir(import_dir))
-    files = filter(pngfil, ifiles)
-
-    fnames = ["T%02d.png" % i for i in range(0, len(files))]
-
-    ffiles = [os.path.join(import_dir, f) for f in files]
-    tofiles = [os.path.join(importpath, f) for f in fnames]
-
-    fn = zip(ffiles, tofiles)
-    
-    for f, t in fn:
-        print 'cp', f, t
-        #shutil.copy(f, t)
-
 try:
     import_dir = sys.argv[1]
 except IndexError, e:
     print "Usage: %s import_dir" % os.path.basename(sys.argv[0])
     sys.exit(1)
 
-#importpath = 'data/newexp/segmented_image'
-#do_stuff(import_dir, importpath, 41, -19)
-
-#importpath = 'data/newexp/projection'
-#do_stuff(import_dir, importpath, 16, -19)
+importpath = 'data/newexp/segmented_image'
+do_stuff_n(import_dir, importpath)
 
 #importpath = 'data/oldexp/rotated_image'
 #do_stuff_n(import_dir, importpath)
 
-importpath = 'data/oldexp/rotated_projection'
-do_stuff_n(import_dir, importpath)
+#importpath = 'data/oldexp/rotated_projection'
+#do_stuff_n(import_dir, importpath)
