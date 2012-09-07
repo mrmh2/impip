@@ -17,12 +17,15 @@ import pipeline
 def create_pipeline():
     pl = pipeline.Pipeline("Pavement cells")
     
-    #d1 = pipeline.DataStage("Microscope file")
-    #pl.add_data_stage(d1)
+    d1 = pipeline.DataStage("Microscope file")
+    pl.add_data_stage(d1)
     
-    #d2 = pipeline.DataStage("Image stack")
-    #pl.add_data_stage(d2)
-    #
+    d2 = pipeline.DataStage("Image stack")
+    pl.add_data_stage(d2)
+    
+    d25 = pipeline.DataStage("Gaussian projection")
+    pl.add_data_stage(d25)
+    
     d3 = pipeline.DataStage("Projection")
     pl.add_data_stage(d3)
 
@@ -37,6 +40,15 @@ def create_pipeline():
     
     d6 = pipeline.DataStage("L numbers")
     pl.add_data_stage(d6)
+
+    p0 = pipeline.ProcessStage("Generate stack", 'mictostack')
+    p0.ext = ''
+    pl.add_processing_stage(p0)
+    pl.connect(d1, p0, d2)
+
+    p05 = pipeline.ProcessStage("Gaussian projection", "stacktoproj")
+    pl.add_processing_stage(p05)
+    pl.connect(d2, p05, d25)
     
     p1 = pipeline.ProcessStage("Rotate 90 ccw", 'rotate')
     pl.add_processing_stage(p1)
@@ -47,7 +59,7 @@ def create_pipeline():
     pl.connect(d3, p2, d34)
 
     p3 = pipeline.ProcessStage("Get L numbers", 'lnumber')
-    p3.ext = 'txt'
+    p3.ext = '.txt'
     pl.add_processing_stage(p3)
     pl.connect(d5, p3, d6)
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os, errno, shutil
+import sys
 
 def mprint(string):
     print string
@@ -23,6 +24,7 @@ class Pipeline:
         self.dstages = {}
         self.pstages = {}
         self.name = name
+        self.logger
 
         self.dunits = {}
 
@@ -66,6 +68,7 @@ class DataStage:
         return "DataStage, description: %s" % self.description
 
     def connect(self, pstage, dstage):
+        # TODO - lists go here to allow multiplestuffs. Or connectors?
         self.output_pstage = pstage
         pstage.set_output(dstage)
 
@@ -77,9 +80,10 @@ class DataUnit:
         return "DataUnit, filename: %s" % self.filename
 
     def set_filename(self, filename):
-        if not os.path.isfile(filename):
+        if not os.path.isfile(filename) and not os.path.exists(filename):
             # TODO: Better with an exception
-            print "Error: %s does not exist or is not a file" % filename
+            print "Error in setting DataUnit filename: %s does not exist or is not a file" % filename
+            sys.exit(0)
         else:
             self.filename = filename
 
@@ -88,7 +92,7 @@ class ProcessStage:
         self.command = None
         self.fnmapping = None
         self.name = name
-        self.ext = 'png'
+        self.ext = '.png'
         self.filtname = filtname
 
     def set_output(self, dstage):
@@ -105,17 +109,17 @@ class ProcessStage:
         # TODO - split this up
         mprint("Running processing stage %s on %s" % (self.name, input_filename))
         in_file, in_ext = os.path.splitext(os.path.basename(input_filename))
-        output_filename = in_file + '.' + self.ext
+        output_filename = in_file + self.ext
         output_path = os.path.join(output_prefix, squash_name(self.output_dstage.name))
         # TODO - probably do this elsewhere
         mkdir_p(output_path)
         output_fullname = os.path.join(output_path, output_filename)
         mprint("  I will create %s" % output_fullname)
 
-        if os.path.isfile(output_fullname):
-            mprint("    Output file already exists")
+        if os.path.isfile(output_fullname) or os.path.exists(output_fullname):
+            mprint("    Output file/dir already exists")
         else:
-            mprint("    File does not exist")
+            mprint("    File/dir does not exist")
             self.execute(input_filename, output_fullname)
 
 class Connector:

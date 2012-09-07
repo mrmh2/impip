@@ -3,12 +3,12 @@ TARGET: Simple two step pipeline
  ST1: Store and restore pipeline
 TARGET: Saving and loading pipelines and data structures/units
 
+TODO: Better printing/logging
 TODO: Reorganise utility programs
 TODO: Multiple processing stages per data stage, multiple data stages per processing stage
 TODO: Multiple inputs for an output
 TODO: GetLnumbers pipeline stage
 TODO: Easier pipeline testing
-TODO: Better printing/logging
 TODO: Process stages should have function that returns name for next data stage
 TODO: Think about data structures
 

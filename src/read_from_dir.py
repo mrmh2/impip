@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import simpip
 import pipeline
 import os
@@ -16,6 +14,7 @@ def data_tracks_from_path(data_dir, pl):
             for f in os.listdir(ds_path):
                 #print ds_name, ds_path, f
                 dt_name = get_prefix(f)
+                #print "dt_name is %s" % dt_name
                 if dt_name not in dts:
                     #print "Creating %s" % dt_name
                     dts[dt_name] = pipeline.DataTrack(dt_name, pl, data_dir)
