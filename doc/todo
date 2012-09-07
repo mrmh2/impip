@@ -3,6 +3,8 @@ TARGET: Simple two step pipeline
  ST1: Store and restore pipeline
 TARGET: Saving and loading pipelines and data structures/units
 
+TODO: METHOD: pipeline print/display
+
 TODO: Better printing/logging
 TODO: Reorganise utility programs
 TODO: Multiple processing stages per data stage, multiple data stages per processing stage

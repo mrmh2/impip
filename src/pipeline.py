@@ -1,7 +1,25 @@
 #!/usr/bin/env python
 
-import os, errno, shutil
+import os
+import errno
+import shutil
 import sys
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+logging.NOTE = 32
+logging.addLevelName(logging.NOTE, 'NOTE')
+logger.note = lambda msg, *args: log._log(logging.NOTE, msg, args)
+
+filehdlr = logging.FileHandler('log/pipeline.log')
+filehdlr.setLevel(logging.DEBUG)
+logger.addHandler(filehdlr)
+
+strmhdlr = logging.StreamHandler(sys.stdout)
+strmhdlr.setLevel(logging.INFO)
+logger.addHandler(strmhdlr)
 
 def mprint(string):
     print string
@@ -24,12 +42,14 @@ class Pipeline:
         self.dstages = {}
         self.pstages = {}
         self.name = name
-        self.logger
-
         self.dunits = {}
+        self.init_logger()
 
     def __repr__(self):
         return "Pipeline, name: %s" % self.name
+
+    def init_logger(self):
+        self.logger = logging.getLogger(__name__)
 
     def add_data_stage(self, dstage):
         self.dstages[dstage.name] = dstage
@@ -46,17 +66,17 @@ class Pipeline:
         dstage1.connect(pstage, dstage2)
 
     def run(self, dataset):
-        print "pipeline.run()"
+        self.logger.info("Running pipeline")
         for dtn in dataset.dtracks:
             datatrack = dataset.dtracks[dtn]
             for du_filename in datatrack.dunits:
                 du = datatrack.dunits[du_filename]
-                mprint("  Processing unit %s" % du.filename)
+                self.logger.debug("  Processing unit %s" % du.filename)
                 ds = du.dstage
-                mprint("    at stage %s" % ds.name)
+                self.logger.debug("    at stage %s" % ds.name)
                 ps = ds.output_pstage
                 if ps:
-                    mprint("    has pstage, %s" % ps.name)
+                    self.logger.debug("    has pstage, %s" % ps.name)
                     ps.run(du.filename, datatrack.data_dir)
 
 class DataStage:
@@ -94,6 +114,7 @@ class ProcessStage:
         self.name = name
         self.ext = '.png'
         self.filtname = filtname
+        self.logger = logging.getLogger(__name__)
 
     def set_output(self, dstage):
         self.output_dstage = dstage
@@ -107,19 +128,19 @@ class ProcessStage:
 
     def run(self, input_filename, output_prefix):
         # TODO - split this up
-        mprint("Running processing stage %s on %s" % (self.name, input_filename))
+        self.logger.info("Running processing stage %s on %s" % (self.name, input_filename))
         in_file, in_ext = os.path.splitext(os.path.basename(input_filename))
         output_filename = in_file + self.ext
         output_path = os.path.join(output_prefix, squash_name(self.output_dstage.name))
         # TODO - probably do this elsewhere
         mkdir_p(output_path)
         output_fullname = os.path.join(output_path, output_filename)
-        mprint("  I will create %s" % output_fullname)
+        self.logger.debug("  I will create %s" % output_fullname)
 
         if os.path.isfile(output_fullname) or os.path.exists(output_fullname):
-            mprint("    Output file/dir already exists")
+            self.logger.debug("    Output file/dir already exists")
         else:
-            mprint("    File/dir does not exist")
+            self.logger.debug("    File/dir does not exist")
             self.execute(input_filename, output_fullname)
 
 class Connector:
