@@ -21,6 +21,7 @@ def create_pipeline():
     pl.create_data_stage("Microscope metadata")
     pl.create_data_stage("Image stack")
     pl.create_data_stage("Gaussian projection")
+    pl.create_data_stage("Surface height map")
     pl.create_data_stage("Projection")
     pl.create_data_stage("Rotated projection")
     pl.create_data_stage("Segmented image")
@@ -36,7 +37,11 @@ def create_pipeline():
 
     pl.connect_by_name("Microscope file", "Get microscope metadata", "Microscope metadata")
     pl.connect_by_name("Microscope file", "Generate stack", "Image stack")
-    pl.connect_by_name("Image stack", "Gaussian projection", "Gaussian projection")
     pl.connect_by_name("Segmented image", "Get L numbers", "L numbers")
+    pl.connect_by_name("Image stack", "Gaussian projection", "Gaussian projection")
+    pl.connect_by_name("Image stack", "Gaussian projection", "Surface height map")
+
+    ps = pl.pstages["Gaussian projection"]
+    pl.output_map = ["Gaussian projection", "Surface height map"]
 
     return pl

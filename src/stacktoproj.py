@@ -4,10 +4,10 @@
 This module acts both as part of an image processing pipeline, or a standalone
 executable. If run as a standalone executable, it should be called as:
 
-stacktoproj.py input_directory output_file
+stacktoproj.py input_directory output_file surface_file
 
-It will convert a stack of PNGs in the input directory into a projection in the
-output_directory."""
+It will convert a stack of PNGs in the input directory into a projection as the
+output_file and a surface file."""
 
 import os
 import sys
@@ -17,15 +17,20 @@ import subprocess
 
 gaussproj = '/storage/shared/tools/gaussproj/gaussproj.py'
 
-def process(input_path, output_filename):
+def process(input_paths, output_filenames):
+
+    input_path = input_paths[0]
 
     tmpdir = '/tmp/stackproj'
-    output_file = 'proj-g3d-8-8-6-10.png'
+    output_projection = 'proj-g3d-8-8-6-10.png'
+    output_surface = 'surface-g3d-8-8-6-10.png'
     make_dir_if_needed(tmpdir)
-    #basename = os.path.basename(output_path)
-    #fullname = "%s_C%%c_S%%s_Z%%z.png" % basename
-    #fullpath = os.path.join(output_path, fullname)
-    #print fullpath
+
+    projection_file = output_filenames[0]
+    surface_file = output_filenames[1]
+
+    print "I got called to turn %s into projection %s and surface %s" % (input_path, 
+        projection_file, surface_file)
 
     cmd = [
             gaussproj,
@@ -34,8 +39,11 @@ def process(input_path, output_filename):
 
     subprocess.call(cmd)
 
-    output_name = os.path.join(tmpdir, output_file)
-    shutil.copy(output_name, output_filename)
+    output_name = os.path.join(tmpdir, output_projection)
+    shutil.copy(output_name, projection_file)
+
+    output_name = os.path.join(tmpdir, output_surface)
+    shutil.copy(output_name, surface_file)
 
 def make_dir_if_needed(dirname):
     try:

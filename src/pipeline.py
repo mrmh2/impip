@@ -91,20 +91,6 @@ class Pipeline:
             for pname, pstage in self.pstages.iteritems():
                 pstage.run(datatrack)
 
-    #def run(self, dataset):
-    #    self.logger.info("Running pipeline")
-    #    for dtn in dataset.dtracks:
-    #        datatrack = dataset.dtracks[dtn]
-    #        for du_filename in datatrack.dunits:
-    #            du = datatrack.dunits[du_filename]
-    #            self.logger.debug("  Processing unit %s" % du.filename)
-    #            ds = du.dstage
-    #            self.logger.debug("    at stage %s" % ds.name)
-    #            ps = ds.output_pstage
-    #            if ps:
-    #                self.logger.debug("    has pstage, %s" % ps.name)
-    #                ps.run(du.filename, datatrack.data_dir)
-
 class DataStage:
     def __init__(self, name):
         self.name = name
@@ -182,16 +168,22 @@ class ProcessStage(object):
         for name, dstage in self.outputs.iteritems():
             fn = data_track.get_suggested_filename(dstage, self.ext)
             mkdir_p(os.path.dirname(fn))
-            outfiles.append(fn)
+            outfiles.append((name, fn))
+
+        od = dict(outfiles)
+
+        try:
+            outfiles = [od[o] for o in self.output_map]
+        except AttributeError:
+            outfiles = od.values()
 
         if len(infiles) and len(outfiles):
-            self.execute(infiles[0], outfiles[0])
+            if len(outfiles) == 1 and len(infiles) == 1: 
+                self.execute(infiles[0], outfiles[0])
+            else:
+                self.execute(infiles, outfiles)
         else:
             logger.info("Processing stage %s has either no inputs or no outputs" % self.name)
-
-        # TODO proper multiple input file handling
-        #print "(ProcessStage) My input list is", infiles
-        #print "(ProcessStage) My output list is", outfiles
 
     def orun(self, input_filename, output_prefix):
         # TODO - split this up
