@@ -4,6 +4,7 @@ TARGET: Simple two step pipeline
 TARGET: Saving and loading pipelines and data structures/units
 
 TODO: METHOD: pipeline print/display
+TODO: Create dunits when running pipeline
 
 TODO: Better printing/logging
 TODO: Reorganise utility programs

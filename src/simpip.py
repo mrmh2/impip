@@ -17,50 +17,26 @@ import pipeline
 def create_pipeline():
     pl = pipeline.Pipeline("Pavement cells")
     
-    d1 = pipeline.DataStage("Microscope file")
-    pl.add_data_stage(d1)
-    
-    d2 = pipeline.DataStage("Image stack")
-    pl.add_data_stage(d2)
-    
-    d25 = pipeline.DataStage("Gaussian projection")
-    pl.add_data_stage(d25)
-    
-    d3 = pipeline.DataStage("Projection")
-    pl.add_data_stage(d3)
+    pl.create_data_stage("Microscope file")
+    pl.create_data_stage("Microscope metadata")
+    pl.create_data_stage("Image stack")
+    pl.create_data_stage("Gaussian projection")
+    pl.create_data_stage("Projection")
+    pl.create_data_stage("Rotated projection")
+    pl.create_data_stage("Segmented image")
+    pl.create_data_stage("Rotated image")
+    pl.create_data_stage("L numbers")
 
-    d34 = pipeline.DataStage("Rotated projection")
-    pl.add_data_stage(d34)
-    #
-    d4 = pipeline.DataStage("Segmented image")
-    pl.add_data_stage(d4)
-    #
-    d5 = pipeline.DataStage("Rotated image")
-    pl.add_data_stage(d5)
-    
-    d6 = pipeline.DataStage("L numbers")
-    pl.add_data_stage(d6)
+    pl.create_process_stage("Generate stack", 'mictostack', '')
+    pl.create_process_stage("Gaussian projection", "stacktoproj")
+    pl.create_process_stage("Rotate 90 ccw", 'rotate')
+    pl.create_process_stage("Rotate projection 90 ccw", 'rotate')
+    pl.create_process_stage("Get L numbers", 'lnumber', '.txt')
+    pl.create_process_stage("Get microscope metadata", 'getmicmeta')
 
-    p0 = pipeline.ProcessStage("Generate stack", 'mictostack')
-    p0.ext = ''
-    pl.add_processing_stage(p0)
-    pl.connect(d1, p0, d2)
-
-    p05 = pipeline.ProcessStage("Gaussian projection", "stacktoproj")
-    pl.add_processing_stage(p05)
-    pl.connect(d2, p05, d25)
-    
-    p1 = pipeline.ProcessStage("Rotate 90 ccw", 'rotate')
-    pl.add_processing_stage(p1)
-    pl.connect(d4, p1, d5)
-
-    p2 = pipeline.ProcessStage("Rotate projection 90 ccw", 'rotate')
-    pl.add_processing_stage(p2)
-    pl.connect(d3, p2, d34)
-
-    p3 = pipeline.ProcessStage("Get L numbers", 'lnumber')
-    p3.ext = '.txt'
-    pl.add_processing_stage(p3)
-    pl.connect(d5, p3, d6)
+    pl.connect_by_name("Microscope file", "Get microscope metadata", "Microscope metadata")
+    pl.connect_by_name("Microscope file", "Generate stack", "Image stack")
+    pl.connect_by_name("Image stack", "Gaussian projection", "Gaussian projection")
+    pl.connect_by_name("Segmented image", "Get L numbers", "L numbers")
 
     return pl

@@ -1,4 +1,4 @@
-import simpip
+#import simpip
 import pipeline
 import os
 
@@ -30,8 +30,9 @@ def data_tracks_from_path(data_dir, pl):
 
     return dts
 
-def dataset_from_dir(dataset_name, data_dir):
-    pl = simpip.create_pipeline()
+def dataset_from_dir(dataset_name, data_dir, pipeline_name):
+    pline = __import__(pipeline_name)
+    pl = pline.create_pipeline()
     ds = pipeline.DataSet(dataset_name, pl)
     dts = data_tracks_from_path(data_dir, pl)
     for dtn in dts:
@@ -39,10 +40,10 @@ def dataset_from_dir(dataset_name, data_dir):
 
     return ds
 
-def get_data_files(dataset_name):
-    dir_name = 'data'
-    data_dir = os.path.join(dir_name, dataset_name)
-    ds = dataset_from_dir(dataset_name, data_dir)
-    d = ds.get_data()
-    
-    return d
+#def get_data_files(dataset_name, pipeline_name='simpip'):
+#    dir_name = 'data'
+#    data_dir = os.path.join(dir_name, dataset_name)
+#    ds = dataset_from_dir(dataset_name, data_dir, pipeline_name)
+#    d = ds.get_data()
+#    
+#    return d

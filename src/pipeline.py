@@ -48,6 +48,14 @@ class Pipeline:
     def __repr__(self):
         return "Pipeline, name: %s" % self.name
 
+    def create_data_stage(self, dstagename):
+        ds = DataStage(dstagename)
+        self.add_data_stage(ds)
+
+    def create_process_stage(self, pstagename, modname, ext='.png'):
+        ps = ProcessStage(pstagename, modname, ext)
+        self.add_processing_stage(ps)
+
     def init_logger(self):
         self.logger = logging.getLogger(__name__)
 
@@ -63,34 +71,46 @@ class Pipeline:
         self.dunits[dunit.filename] = dunit
 
     def connect(self, dstage1, pstage, dstage2):
-        dstage1.connect(pstage, dstage2)
+        pstage.add_input(dstage1)
+        pstage.add_output(dstage2)
+        #dstage1.connect(pstage, dstage2)
+
+    def connect_by_name(self, ndstage1, npstage, ndstage2):
+        try:
+            pstage = self.pstages[npstage]
+        except KeyError, e:
+            print "ERROR: Process stage %s does not exist" % e
+            sys.exit(2)
+        dstage1 = self.dstages[ndstage1]
+        dstage2 = self.dstages[ndstage2]
+
+        self.connect(dstage1, pstage, dstage2)
 
     def run(self, dataset):
-        self.logger.info("Running pipeline")
-        for dtn in dataset.dtracks:
-            datatrack = dataset.dtracks[dtn]
-            for du_filename in datatrack.dunits:
-                du = datatrack.dunits[du_filename]
-                self.logger.debug("  Processing unit %s" % du.filename)
-                ds = du.dstage
-                self.logger.debug("    at stage %s" % ds.name)
-                ps = ds.output_pstage
-                if ps:
-                    self.logger.debug("    has pstage, %s" % ps.name)
-                    ps.run(du.filename, datatrack.data_dir)
+        for dtn, datatrack in dataset.dtracks.iteritems():
+            for pname, pstage in self.pstages.iteritems():
+                pstage.run(datatrack)
+
+    #def run(self, dataset):
+    #    self.logger.info("Running pipeline")
+    #    for dtn in dataset.dtracks:
+    #        datatrack = dataset.dtracks[dtn]
+    #        for du_filename in datatrack.dunits:
+    #            du = datatrack.dunits[du_filename]
+    #            self.logger.debug("  Processing unit %s" % du.filename)
+    #            ds = du.dstage
+    #            self.logger.debug("    at stage %s" % ds.name)
+    #            ps = ds.output_pstage
+    #            if ps:
+    #                self.logger.debug("    has pstage, %s" % ps.name)
+    #                ps.run(du.filename, datatrack.data_dir)
 
 class DataStage:
     def __init__(self, name):
         self.name = name
-        self.output_pstage = None
 
     def __repr__(self):
-        return "DataStage, description: %s" % self.description
-
-    def connect(self, pstage, dstage):
-        # TODO - lists go here to allow multiplestuffs. Or connectors?
-        self.output_pstage = pstage
-        pstage.set_output(dstage)
+        return "DataStage, name: %s" % self.name
 
 class DataUnit:
     def __init__(self, datastage):
@@ -107,14 +127,21 @@ class DataUnit:
         else:
             self.filename = filename
 
-class ProcessStage:
-    def __init__(self, name, filtname):
-        self.command = None
-        self.fnmapping = None
+class ProcessStage(object):
+    def __init__(self, name, filtname, ext='.png'):
         self.name = name
-        self.ext = '.png'
+        self.ext = ext
         self.filtname = filtname
         self.logger = logging.getLogger(__name__)
+
+        self.inputs = {}
+        self.outputs = {}
+
+    def add_input(self, dstage):
+        self.inputs[dstage.name] = dstage
+
+    def add_output(self, dstage):
+        self.outputs[dstage.name] = dstage
 
     def set_output(self, dstage):
         self.output_dstage = dstage
@@ -123,10 +150,50 @@ class ProcessStage:
         self.output_dir = outdir
 
     def execute(self, input_filename, output_filename):
+        self.logger.info("Executing %s on %s to produce %s" % 
+            (self.filtname, input_filename, output_filename))
         pfilt = __import__(self.filtname)
         pfilt.process(input_filename, output_filename)
 
-    def run(self, input_filename, output_prefix):
+    def run(self, data_track):
+        self.logger.info("Running stage %s on data track %s" % (self.name, data_track.name))
+        # TODO - process modules need to know which input is which somehow
+        infiles = []
+        for name, dstage in self.inputs.iteritems():
+            # TODO - modification time stuff will go in here
+            fn = data_track.get_filename(dstage)
+            infiles.append(fn)
+
+        if not all(infiles):
+            logger.info("Not enough input files for applying %s to %s", self.name, data_track.name)
+            return
+
+        existing_outfiles = []
+        for name, dstage in self.outputs.iteritems():
+            fn = data_track.get_filename(dstage)
+            existing_outfiles.append(fn)
+
+        if any(existing_outfiles):
+            logger.info("At least one output file exists, not overwriting %s on %s", 
+                self.name, data_track.name)
+            return
+
+        outfiles = []
+        for name, dstage in self.outputs.iteritems():
+            fn = data_track.get_suggested_filename(dstage, self.ext)
+            mkdir_p(os.path.dirname(fn))
+            outfiles.append(fn)
+
+        if len(infiles) and len(outfiles):
+            self.execute(infiles[0], outfiles[0])
+        else:
+            logger.info("Processing stage %s has either no inputs or no outputs" % self.name)
+
+        # TODO proper multiple input file handling
+        #print "(ProcessStage) My input list is", infiles
+        #print "(ProcessStage) My output list is", outfiles
+
+    def orun(self, input_filename, output_prefix):
         # TODO - split this up
         self.logger.info("Running processing stage %s on %s" % (self.name, input_filename))
         in_file, in_ext = os.path.splitext(os.path.basename(input_filename))
@@ -158,6 +225,21 @@ class DataTrack:
 
     def set_data_dir(self, dirname):
         self.data_dir = dirname
+
+    def get_filename(self, data_stage):
+        logger.debug("DataTrack) Retrieving filename for %s of %s" % (data_stage.name, self.name))
+        for dun, dunit in self.dunits.iteritems():
+            if data_stage.name == dunit.dstage.name:
+                return dun
+
+        return None
+
+    def get_suggested_filename(self, data_stage, ext):
+        dd = self.data_dir
+        fd = squash_name(data_stage.name)
+        fn = self.name + ext
+
+        return os.path.join(dd, fd, fn)
 
     def import_file(self, filename, dstage_name):
         print "Importing %s" % filename

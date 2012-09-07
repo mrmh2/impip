@@ -15,10 +15,10 @@ def sorted_nicely( l ):
     alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ]
     return sorted(l, key = alphanum_key)
 
-def get_data_files(dataset_name, time_point=None):
+def get_data_files(dataset_name, time_point=None, pipeline_name='simpip'):
     dir_name = 'data'
     data_dir = os.path.join(dir_name, dataset_name)
-    ds = rfd.dataset_from_dir(dataset_name, data_dir)
+    ds = rfd.dataset_from_dir(dataset_name, data_dir, pipeline_name)
     d = ds.get_data()
     
     if time_point is None:
@@ -33,8 +33,13 @@ def main():
     except IndexError:
         print "Usage %s dataset_name" % os.path.basename(sys.argv[0])
         sys.exit(0)
+
+    if len(sys.argv) > 2:
+        pl_name = sys.argv[2]
+    else:
+        pl_name = 'simpip'
     
-    d = get_data_files(dataset_name)
+    d = get_data_files(dataset_name, pipeline_name=pl_name)
 
     pprint.pprint(d)
 
