@@ -45,6 +45,8 @@ class Pipeline:
         self.dunits = {}
         self.init_logger()
 
+        self.connections = []
+
     def __repr__(self):
         return "Pipeline, name: %s" % self.name
 
@@ -85,6 +87,7 @@ class Pipeline:
         dstage2 = self.dstages[ndstage2]
 
         self.connect(dstage1, pstage, dstage2)
+        self.connections.append((ndstage1, npstage, ndstage2))
 
     def run(self, dataset):
         for dtn, datatrack in dataset.dtracks.iteritems():
