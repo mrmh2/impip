@@ -1,48 +1,68 @@
 #!/usr/bin/env python2.7
+"""
+plotpipe.py
+
+Produces a PNG plot of the specified pipeline. Usage:
+
+plotpipe.py pipeline_name output_filename
+"""
+
+import os
+import sys
 
 from pygraph.classes.digraph import digraph
 from pygraph.readwrite.dot import write
-
 import pygraphviz as pgv
 
-plname = "fullpip"
+from pltools import load_pipeline_by_name
 
-pline = __import__(plname)
+#def load_pipeline_by_name(plname):
+#    pline = __import__(plname)
+#    return pline.create_pipeline()
 
-gr = digraph()
-pl = pline.create_pipeline()
+def pygraph_build_pipeline_graph(pl):
+    gr = digraph()
 
-def simple():
-    for dname in pl.dstages:
-        gr.add_nodes([dname])
-    
-    for f, label, t in pl.connections:
-        gr.add_edge((f, t), label=label)
+    gr.add_nodes(pl.dstages.keys())
+    gr.add_nodes(pl.pstages.keys())
 
-#for dname in pl.dstages:
-#    gr.add_nodes([dname])
-gr.add_nodes(pl.dstages.keys())
-gr.add_nodes(pl.pstages.keys())
+    unique_inputs = set([(f, p) for f, p, _ in pl.connections])
+    unique_outputs = set([(p, t) for _, p, t in pl.connections])
+    [gr.add_edge(i) for i in unique_inputs | unique_outputs]
 
-#for pname in pl.pstages:
-#    gr.add_nodes([pname])
+    return gr
 
-trackit = []
-    
-for f, p, t in pl.connections:
-    if f + p not in trackit:
-        gr.add_edge((f, p))
-        trackit.append(f + p)
-    if p + t not in trackit:
-        gr.add_edge((p, t))
-        trackit.append(p + t)
 
-dot = write(gr)
+def prettify_graph(pl, G):
+    dnodes = [G.get_node(name) for name in pl.dstages]
 
-print dot
+    for n in dnodes:
+        n.attr['shape'] = 'box'
+        n.attr['color'] = 'blue'
 
-G = pgv.AGraph(dot)
+    pnodes = [G.get_node(name) for name in pl.pstages]
 
-G.layout(prog='dot')
+    for n in pnodes:
+        n.attr['shape'] = 'ellipse'
+        n.attr['color'] = 'red'
 
-G.draw('pg.png')
+def main():
+    try:
+       pipeline_name = sys.argv[1]
+       output_filename = sys.argv[2]
+    except IndexError:
+        print __doc__
+        sys.exit(2)
+
+    pl = load_pipeline_by_name(pipeline_name)
+    gr = pygraph_build_pipeline_graph(pl)
+    dot = write(gr)
+
+    print dot
+    G = pgv.AGraph(dot, name=pl.name)
+    prettify_graph(pl, G)
+    G.layout(prog='dot')
+    G.draw(output_filename)
+
+if __name__ == '__main__':
+    main()

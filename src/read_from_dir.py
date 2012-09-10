@@ -1,6 +1,14 @@
 #import simpip
-import pipeline
+"""get_data_files.py
+
+Given a pipeline name and a directory to look for data, reads data files for that pipeline
+from that directory
+"""
+
 import os
+import sys
+
+import pipeline
 
 def get_prefix(f):
     p, e = os.path.splitext(f)
@@ -31,7 +39,12 @@ def data_tracks_from_path(data_dir, pl):
     return dts
 
 def dataset_from_dir(dataset_name, data_dir, pipeline_name):
-    pline = __import__(pipeline_name)
+    try:
+        pline = __import__(pipeline_name)
+    except ImportError:
+        print "No such pipeline: %s" % pipeline_name
+        sys.exit(2)
+
     pl = pline.create_pipeline()
     ds = pipeline.DataSet(dataset_name, pl)
     dts = data_tracks_from_path(data_dir, pl)

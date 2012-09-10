@@ -9,7 +9,6 @@ def create_pipeline():
     # Data stages
     pl.create_data_stage("Raw image")
     pl.create_data_stage("Rotated image")
-    pl.create_data_stage("PNG data")
     pl.create_data_stage("PNG data on raw image")
     pl.create_data_stage("Some text")
     pl.create_data_stage("More text")
@@ -22,12 +21,10 @@ def create_pipeline():
     # Connections
     pl.connect_by_name("Raw image", "Rotate 90 ccw", "Rotated image")
     pl.connect_by_name("Raw image", "Get PNG data", "PNG data on raw image")
-
     pl.connect_by_name("PNG data on raw image", "Split text", "Some text")
     pl.connect_by_name("PNG data on raw image", "Split text", "More text")
 
     ps = pl.pstages["Split text"]
-
     ps.output_map = ["Some text", "More text"]
     #ps.output_map = ["More text", "Some text"]
 
