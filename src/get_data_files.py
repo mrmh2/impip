@@ -31,7 +31,7 @@ def main():
     try:
         dataset_name = sys.argv[1]
     except IndexError:
-        print "Usage %s dataset_name" % os.path.basename(sys.argv[0])
+        print "Usage %s dataset_name [pipeline_name]" % os.path.basename(sys.argv[0])
         sys.exit(0)
 
     if len(sys.argv) > 2:
