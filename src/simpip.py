@@ -21,27 +21,28 @@ def create_pipeline():
     pl.create_data_stage("Microscope metadata")
     pl.create_data_stage("Image stack")
     pl.create_data_stage("Gaussian projection")
+    pl.create_data_stage("Thresholded projection")
+    pl.create_data_stage("Cleaned projection")
     pl.create_data_stage("Surface height map")
     pl.create_data_stage("Projection")
-    pl.create_data_stage("Rotated projection")
     pl.create_data_stage("Segmented image")
-    pl.create_data_stage("Rotated image")
     pl.create_data_stage("L numbers")
 
     pl.create_process_stage("Generate stack", 'mictostack', '')
-    pl.create_process_stage("Gaussian projection", "stacktoproj")
-    pl.create_process_stage("Rotate 90 ccw", 'rotate')
-    pl.create_process_stage("Rotate projection 90 ccw", 'rotate')
+    pl.create_process_stage("Create gaussian projection", "stacktoproj")
     pl.create_process_stage("Get L numbers", 'lnumber', '.txt')
     pl.create_process_stage("Get microscope metadata", 'getmicmeta')
+    pl.create_process_stage("Thresholding", 'threshold')
 
     pl.connect_by_name("Microscope file", "Get microscope metadata", "Microscope metadata")
     pl.connect_by_name("Microscope file", "Generate stack", "Image stack")
     pl.connect_by_name("Segmented image", "Get L numbers", "L numbers")
-    pl.connect_by_name("Image stack", "Gaussian projection", "Gaussian projection")
-    pl.connect_by_name("Image stack", "Gaussian projection", "Surface height map")
+    pl.connect_by_name("Image stack", "Create gaussian projection", "Gaussian projection")
+    pl.connect_by_name("Image stack", "Create gaussian projection", "Surface height map")
 
-    ps = pl.pstages["Gaussian projection"]
+    pl.connect_by_name("Gaussian projection", "Thresholding", "Thresholded projection")
+
+    ps = pl.pstages["Create gaussian projection"]
     pl.output_map = ["Gaussian projection", "Surface height map"]
 
     return pl
