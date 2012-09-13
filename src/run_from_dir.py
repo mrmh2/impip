@@ -7,6 +7,8 @@ import read_from_dir as rfd
 #import simpip
 
 def main():
+    sys.path.insert(0, '/usr/local/lib/python2.7/site-packages/')
+    
     try:
         dataset_name = sys.argv[1]
     except IndexError:

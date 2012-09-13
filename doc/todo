@@ -7,6 +7,7 @@ TODO: Proper metadata record
 TODO: METHOD: pipeline print/display
 TODO: Create dunits when running pipeline
 
+TODO: Filter subprocesses that exit with non-0 statuses shouldn't then copy files
 TODO: Reorganise utility programs
 TODO: Easier pipeline testing
 TODO: Process stages should have function that returns name for next data stage

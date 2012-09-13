@@ -4,10 +4,11 @@ import os
 import sys
 
 import numpy
+
 import cv2
 
-def make_mask(ifile):
-    img = cv2.imread(ifile)
+def make_mask(img):
+#    img = cv2.imread(ifile)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray = cv2.GaussianBlur(gray, (5, 5), 0)
     thresh = cv2.adaptiveThreshold(gray, 255, 1, 1, 11, 1)
@@ -27,7 +28,7 @@ def threshold_file(ifile, outfile):
     
     er = cv2.erode(thresh, None, iterations=1)
 
-    mask = make_mask(file)
+    mask = make_mask(img)
 
     final = cv2.bitwise_and(er, er, mask=mask)
     

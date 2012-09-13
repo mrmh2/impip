@@ -5,6 +5,7 @@ import errno
 import shutil
 import sys
 import logging
+import pprint
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -93,6 +94,10 @@ class Pipeline:
         for dtn, datatrack in dataset.dtracks.iteritems():
             for pname, pstage in self.pstages.iteritems():
                 pstage.run(datatrack)
+
+    def run_single_track(self, datatrack):
+        for pname, pstage in self.pstages.iteritems():
+            pstage.run(datatrack)
 
 class DataStage:
     def __init__(self, name):

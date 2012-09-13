@@ -46,6 +46,16 @@ def prettify_graph(pl, G):
         n.attr['shape'] = 'ellipse'
         n.attr['color'] = 'red'
 
+def draw_pretty(pl, output_filename):
+    gr = pygraph_build_pipeline_graph(pl)
+    dot = write(gr)
+
+    G = pgv.AGraph(dot, name=pl.name)
+    prettify_graph(pl, G)
+    G.layout(prog='dot')
+    G.draw(output_filename)
+
+
 def main():
     try:
        pipeline_name = sys.argv[1]
@@ -55,14 +65,8 @@ def main():
         sys.exit(2)
 
     pl = load_pipeline_by_name(pipeline_name)
-    gr = pygraph_build_pipeline_graph(pl)
-    dot = write(gr)
 
-    print dot
-    G = pgv.AGraph(dot, name=pl.name)
-    prettify_graph(pl, G)
-    G.layout(prog='dot')
-    G.draw(output_filename)
+    draw_prety(pl, output_filename)
 
 if __name__ == '__main__':
     main()

@@ -8,6 +8,7 @@ from that directory
 import os
 import sys
 
+import pltools
 import pipeline
 
 def get_prefix(f):
@@ -38,14 +39,15 @@ def data_tracks_from_path(data_dir, pl):
 
     return dts
 
-def dataset_from_dir(dataset_name, data_dir, pipeline_name):
-    try:
-        pline = __import__(pipeline_name)
-    except ImportError:
-        print "No such pipeline: %s" % pipeline_name
-        sys.exit(2)
+def dataset_from_dir(dataset_name, data_dir, pipeline_name=None, pl=None):
 
-    pl = pline.create_pipeline()
+    if pl == None: 
+        if pipeline_name == None:
+            print "ERROR: Must supply either pipeline name or pipeline object"
+            sys.exit(2)
+        else:
+            pl = pltools.load_pipeline_by_name(pipeline_name)
+
     ds = pipeline.DataSet(dataset_name, pl)
     dts = data_tracks_from_path(data_dir, pl)
     for dtn in dts:

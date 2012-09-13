@@ -36,7 +36,6 @@ def main():
         sys.exit(0)
 
     process(input_filename, output_filename)
-    generate_l_coeffs('data/newexp/projection/T02.png',  'data/newexp/segmented_image/T02.png', 'T02-better.txt')
         
 
 if __name__ == '__main__':
