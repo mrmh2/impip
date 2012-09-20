@@ -7,6 +7,24 @@ import os
 import sys
 import shutil
 import subprocess
+import ConfigParser
+
+def get_binary_path(cfile, sname):
+    if not os.path.exists(cfile):
+        print "ERROR: Config file %s missing" % cfile
+        sys.exit(2)
+
+    config = ConfigParser.SafeConfigParser()
+    config.read(cfile)
+    #sname = __name__
+    
+    try:
+        result = config.get(sname, 'bin')
+    except ConfigParser.NoSectionError:
+        print "ERROR: Couldn't open %s, or section %s was missing" % (cfile, sname)
+        sys.exit(2)
+
+    return result.replace("'", "")
 
 class Filter(object):
     def __init__(self):
@@ -17,12 +35,8 @@ class Filter(object):
         sys.exit(2)
 
     def main():
+        pass
         
-
-home = os.environ['HOME']
-scommand = os.path.join(home, 'tools/bin/spm2D_1_0_0')
-parfile = os.path.join(home, 'tools/par/spm2d.par')
-
 def process(input_filename, output_filename):
     segment_image(input_file, output_file)
 
@@ -41,17 +55,3 @@ def segment_image(input_file, output_file):
 
     #print "From %s to %s" % (genlfile, lf)
     shutil.copy(genlfile, lf)
- 
-
-def main():
-    try:
-        input_filename = sys.argv[1]
-        output_filename = sys.argv[2]
-    except IndexError:
-        print __doc__
-        sys.exit(2)
-        
-    process(input_filename, output_filename)
-
-if __name__ == '__main__':
-    main()

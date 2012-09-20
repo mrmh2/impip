@@ -8,9 +8,27 @@ parsemeta.py lif_file config_file
 
 import os
 import sys
+import errno
 import pprint
 import subprocess
 import ConfigParser
+
+def get_binary_path(cfile):
+    if not os.path.exists(cfile):
+        print "ERROR: Config file %s missing" % cfile
+        sys.exit(2)
+
+    config = ConfigParser.SafeConfigParser()
+    config.read(cfile)
+    sname = __name__
+    
+    try:
+        result = config.get(sname, 'bin')
+    except ConfigParser.NoSectionError:
+        print "ERROR: Couldn't open %s, or section %s was missing" % (cfile, sname)
+        sys.exit(2)
+
+    return result.replace("'", "")
 
 def read_metadata(lines):
 
@@ -45,13 +63,25 @@ def write_config(pps, output_file):
         config.write(f)
 
 def generate_metadata(filename):
-    showinf = '/storage/shared/tools/bftools/showinf'
+    #showinf = '/storage/shared/tools/bftools/showinf'
+    showinf = get_binary_path('config/tools.cfg')
+    #showinf2 = '/Users/hartleym/packages/bftools/showinf'
+    #print showinf, showinf2
+    #print type(showinf), type(showinf2)
+
+    #sys.exit(0)
     cmd = [
             showinf,
             '-nopix',
             filename]
 
-    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    try:
+        p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    except OSError, e:
+        if e.errno == errno.ENOENT:
+            print "ERROR: Couldn't open tool binary %s" % cmd
+            sys.exit(2)
+        else: raise
 
     stdout, stderr = p.communicate()
 

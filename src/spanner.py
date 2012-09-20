@@ -64,6 +64,14 @@ def main():
         print_data(pl, ds)
         sys.exit(0)
 
+    if command == 'run':
+        data_dir = args.datadir
+        ds = dataset_from_dir_name(data_dir, pl)
+        run_pipeline(pl, ds)
+        sys.exit(0)
+
+    print "Command not recognised"
+
     #plname = 'simpip'
     #data_dir = 'data/newexp'
 

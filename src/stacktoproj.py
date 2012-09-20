@@ -15,7 +15,9 @@ import errno
 import shutil
 import subprocess
 
-gaussproj = '/storage/shared/tools/gaussproj/gaussproj.py'
+from filter import get_binary_path
+
+#gaussproj = '/storage/shared/tools/gaussproj/gaussproj.py'
 
 def process(input_paths, output_filenames):
 
@@ -32,12 +34,20 @@ def process(input_paths, output_filenames):
     print "I got called to turn %s into projection %s and surface %s" % (input_path, 
         projection_file, surface_file)
 
+    gaussproj = get_binary_path('config/tools.cfg', __name__)
+
     cmd = [
             gaussproj,
             input_path,
             tmpdir]
 
-    subprocess.call(cmd)
+    try:
+        subprocess.call(cmd)
+    except OSError, e:
+        if e.errno == errno.ENOENT:
+            print "ERROR: Binary command %s not found" % gaussproj
+            sys.exit(2)
+        else: raise
 
     output_name = os.path.join(tmpdir, output_projection)
     shutil.copy(output_name, projection_file)

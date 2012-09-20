@@ -84,8 +84,12 @@ class Pipeline:
         except KeyError, e:
             print "ERROR: Process stage %s does not exist" % e
             sys.exit(2)
-        dstage1 = self.dstages[ndstage1]
-        dstage2 = self.dstages[ndstage2]
+        try:
+            dstage1 = self.dstages[ndstage1]
+            dstage2 = self.dstages[ndstage2]
+        except KeyError, e:
+            print "ERROR: Data stage %s does not exist" % e
+            sys.exit(2)
 
         self.connect(dstage1, pstage, dstage2)
         self.connections.append((ndstage1, npstage, ndstage2))

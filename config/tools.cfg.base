@@ -1,0 +1,8 @@
+[mictostack]
+bin = '/Users/hartleym/packages/bftools/bfconvert'
+
+[stacktoproj]
+bin = '/Users/hartleym/projects/gaussproj/src/gaussproj.py'
+
+[getmicmeta]
+bin = '/Users/hartleym/packages/bftools/showinf'
