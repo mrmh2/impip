@@ -94,10 +94,10 @@ class Pipeline:
         self.connect(dstage1, pstage, dstage2)
         self.connections.append((ndstage1, npstage, ndstage2))
 
-    def run(self, dataset):
+    def run(self, dataset, noop=False):
         for dtn, datatrack in dataset.dtracks.iteritems():
             for pname, pstage in self.pstages.iteritems():
-                pstage.run(datatrack)
+                pstage.run(datatrack, noop=noop)
 
     def run_single_track(self, datatrack):
         for pname, pstage in self.pstages.iteritems():
@@ -147,13 +147,17 @@ class ProcessStage(object):
     def set_output_dir(self, outdir):
         self.output_dir = outdir
 
-    def execute(self, input_filename, output_filename):
-        self.logger.info("Executing %s on %s to produce %s" % 
-            (self.filtname, input_filename, output_filename))
-        pfilt = __import__(self.filtname)
-        pfilt.process(input_filename, output_filename)
+    def execute(self, input_filename, output_filename, noop=False):
+        if noop:
+            self.logger.info("Would execute %s on %s to produce %s" % 
+                (self.filtname, input_filename, output_filename))
+        else:
+            self.logger.info("Executing %s on %s to produce %s" % 
+                (self.filtname, input_filename, output_filename))
+            pfilt = __import__(self.filtname)
+            pfilt.process(input_filename, output_filename)
 
-    def run(self, data_track):
+    def run(self, data_track, noop=False):
         self.logger.info("Running stage %s on data track %s" % (self.name, data_track.name))
         # TODO - process modules need to know which input is which somehow
         infiles = []
@@ -191,9 +195,9 @@ class ProcessStage(object):
 
         if len(infiles) and len(outfiles):
             if len(outfiles) == 1 and len(infiles) == 1: 
-                self.execute(infiles[0], outfiles[0])
+                self.execute(infiles[0], outfiles[0], noop)
             else:
-                self.execute(infiles, outfiles)
+                self.execute(infiles, outfiles, noop)
         else:
             logger.info("Processing stage %s has either no inputs or no outputs" % self.name)
 
@@ -304,3 +308,7 @@ class DataSet:
             d[dtn] = self.dtracks[dtn].get_data()
 
         return d
+
+    @property
+    def size(self):
+        return len(self.dtracks)

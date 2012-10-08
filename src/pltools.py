@@ -15,6 +15,7 @@ def data_tracks_from_path(data_dir, pl):
     for ds_name in pl.dstages:
         ds_path = os.path.join(data_dir, pipeline.squash_name(ds_name))
         try:
+            #print 'Trying', ds_path
             for f in os.listdir(ds_path):
                 #print ds_name, ds_path, f
                 dt_name = get_prefix(f)

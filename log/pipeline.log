@@ -2513,3 +2513,201 @@ Executing stacktoproj on ['data/unittest/image_stack/T00'] to produce ['data/uni
 Running stage Get L numbers on data track T00
 DataTrack) Retrieving filename for Segmented image of T00
 Not enough input files for applying Get L numbers to T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantA/microscope_file/T01.lif to produce data/ExpID3078/plantA/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantA/microscope_file/T01.lif to produce data/ExpID3078/plantA/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+Would execute mictostack on data/ExpID3078/plantA/microscope_file/T00.lif to produce data/ExpID3078/plantA/image_stack/T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+Would execute getmicmeta on data/ExpID3078/plantA/microscope_file/T00.lif to produce data/ExpID3078/plantA/microscope_metadata/T00.txt
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+Not enough input files for applying Create gaussian projection to T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantB/microscope_file/T01.lif to produce data/ExpID3078/plantB/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantB/microscope_file/T01.lif to produce data/ExpID3078/plantB/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+Would execute mictostack on data/ExpID3078/plantB/microscope_file/T00.lif to produce data/ExpID3078/plantB/image_stack/T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+Would execute getmicmeta on data/ExpID3078/plantB/microscope_file/T00.lif to produce data/ExpID3078/plantB/microscope_metadata/T00.txt
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+Not enough input files for applying Create gaussian projection to T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantC/microscope_file/T01.lif to produce data/ExpID3078/plantC/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantC/microscope_file/T01.lif to produce data/ExpID3078/plantC/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+Would execute mictostack on data/ExpID3078/plantC/microscope_file/T00.lif to produce data/ExpID3078/plantC/image_stack/T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+Would execute getmicmeta on data/ExpID3078/plantC/microscope_file/T00.lif to produce data/ExpID3078/plantC/microscope_metadata/T00.txt
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+Not enough input files for applying Create gaussian projection to T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantD/microscope_file/T01.lif to produce data/ExpID3078/plantD/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantD/microscope_file/T01.lif to produce data/ExpID3078/plantD/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantE/microscope_file/T01.lif to produce data/ExpID3078/plantE/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantE/microscope_file/T01.lif to produce data/ExpID3078/plantE/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantF/microscope_file/T01.lif to produce data/ExpID3078/plantF/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantF/microscope_file/T01.lif to produce data/ExpID3078/plantF/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantA/microscope_file/T01.lif to produce data/ExpID3078/plantA/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantA/microscope_file/T01.lif to produce data/ExpID3078/plantA/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+Would execute mictostack on data/ExpID3078/plantA/microscope_file/T00.lif to produce data/ExpID3078/plantA/image_stack/T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+Would execute getmicmeta on data/ExpID3078/plantA/microscope_file/T00.lif to produce data/ExpID3078/plantA/microscope_metadata/T00.txt
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+Not enough input files for applying Create gaussian projection to T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantB/microscope_file/T01.lif to produce data/ExpID3078/plantB/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantB/microscope_file/T01.lif to produce data/ExpID3078/plantB/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+Would execute mictostack on data/ExpID3078/plantB/microscope_file/T00.lif to produce data/ExpID3078/plantB/image_stack/T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+Would execute getmicmeta on data/ExpID3078/plantB/microscope_file/T00.lif to produce data/ExpID3078/plantB/microscope_metadata/T00.txt
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+Not enough input files for applying Create gaussian projection to T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantC/microscope_file/T01.lif to produce data/ExpID3078/plantC/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantC/microscope_file/T01.lif to produce data/ExpID3078/plantC/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+Would execute mictostack on data/ExpID3078/plantC/microscope_file/T00.lif to produce data/ExpID3078/plantC/image_stack/T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+Would execute getmicmeta on data/ExpID3078/plantC/microscope_file/T00.lif to produce data/ExpID3078/plantC/microscope_metadata/T00.txt
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+Not enough input files for applying Create gaussian projection to T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantD/microscope_file/T01.lif to produce data/ExpID3078/plantD/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantD/microscope_file/T01.lif to produce data/ExpID3078/plantD/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantE/microscope_file/T01.lif to produce data/ExpID3078/plantE/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantE/microscope_file/T01.lif to produce data/ExpID3078/plantE/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+Would execute mictostack on data/ExpID3078/plantF/microscope_file/T01.lif to produce data/ExpID3078/plantF/image_stack/T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+Would execute getmicmeta on data/ExpID3078/plantF/microscope_file/T01.lif to produce data/ExpID3078/plantF/microscope_metadata/T01.txt
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+Not enough input files for applying Create gaussian projection to T01

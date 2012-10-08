@@ -26,7 +26,7 @@ def process(input_filename, output_path):
     fullname = "%s_C%%c_S%%s_Z%%z.png" % basename
     fullpath = os.path.join(output_path, fullname)
 
-    bfconvert = get_binary_path('config/tools.cfg', __name__)
+    bfconvert = get_binary_path('config/tools.cfg', 'mictostack')
 
     cmd = [
             bfconvert,
