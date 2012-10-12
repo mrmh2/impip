@@ -1,6 +1,22 @@
 import os
+import itertools
 
 import pipeline
+
+def generate_name(basepath, path):
+    basename = os.path.basename(basepath)
+    return path[path.find(basename):]
+
+def multiple_datasets_from_path(path, pl):
+
+    walk = [(r, ds) for r, ds, fs in os.walk(path) if len(ds)]
+    full_dirs_paths = [[os.path.join(r, d) for d in ds] for r, ds in walk]
+    dirlist = list(itertools.chain(*full_dirs_paths))
+
+    datasets = [dataset_from_dir(generate_name(path, f), f, pl) 
+        for f in dirlist]
+
+    return [ds for ds in datasets if ds.size]
 
 def load_pipeline_by_name(plname):
     pline = __import__(plname)

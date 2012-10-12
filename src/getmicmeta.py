@@ -45,7 +45,9 @@ def get_param_pairs(param_dict):
     param_list = [
         ['voxel size x', 'HardwareSetting|ScannerSettingRecord|dblVoxelX 0'],
         ['voxel size y', 'HardwareSetting|ScannerSettingRecord|dblVoxelY 0'],
-        ['voxel size z', 'HardwareSetting|ScannerSettingRecord|dblVoxelZ 0']]
+        ['voxel size z', 'HardwareSetting|ScannerSettingRecord|dblVoxelZ 0'],
+        ['x position', 'HardwareSetting|FilterSettingRecord|DM6000 Stage Pos x 0'],
+        ['y position', 'HardwareSetting|FilterSettingRecord|DM6000 Stage Pos y 0']]
 
     return [(name, trans(param_dict[key])) for name, key in param_list]
 

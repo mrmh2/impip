@@ -20,14 +20,22 @@ def parse_filename(fn):
     tp = int(split[1][2:])
     subname = split[2]
 
-    return expid, subname, tp, ext
+    try:
+        part = int(split[3])
+    except IndexError:
+        part = None
+
+    return expid, subname, tp, ext, part
 
 def generate_path(components, pathroot):
 
-    e, s, t, ext = components
+    e, s, t, ext, p = components
 
     path = os.path.join(pathroot, e, s, 'microscope_file')
-    filename = 'T%02d%s' % (t, ext)
+    if p is not None:
+        filename = 'T%02d-%02d%s' % (t, p, ext)
+    else:
+        filename = 'T%02d%s' % (t, ext)
 
     return path, filename
 

@@ -3,6 +3,7 @@ TARGET: Simple two step pipeline
  ST1: Store and restore pipeline
 TARGET: Saving and loading pipelines and data structures/units
 
+TODO: Rerun only section of pipeline
 TODO: Proper metadata record
 TODO: METHOD: pipeline print/display
 TODO: Create dunits when running pipeline

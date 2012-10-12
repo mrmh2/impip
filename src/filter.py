@@ -10,6 +10,30 @@ import subprocess
 import ConfigParser
 
 def get_binary_path(cfile, sname):
+
+    cfiles = [cfile]
+
+    base, current = os.path.split(os.getcwd())
+    cfiles.append(os.path.join(base, 'config/tools.cfg'))
+
+    cfexists = [os.path.exists(cf) for cf in cfiles]
+
+    if not any(cfexists):
+        print "ERROR: Config file %s missing" % cfiles
+        sys.exit(2)
+
+    config = ConfigParser.SafeConfigParser()
+    config.read(cfiles)
+
+    try:
+        result = config.get(sname, 'bin')
+    except ConfigParser.NoSectionError:
+        print "ERROR: Couldn't open %s, or section %s was missing" % (cfile, sname)
+        sys.exit(2)
+
+    return result.replace("'", "")
+
+def get_parfile_path(cfile, sname):
     if not os.path.exists(cfile):
         print "ERROR: Config file %s missing" % cfile
         sys.exit(2)
@@ -19,12 +43,14 @@ def get_binary_path(cfile, sname):
     #sname = __name__
     
     try:
-        result = config.get(sname, 'bin')
+        result = config.get(sname, 'par')
     except ConfigParser.NoSectionError:
         print "ERROR: Couldn't open %s, or section %s was missing" % (cfile, sname)
         sys.exit(2)
 
     return result.replace("'", "")
+
+
 
 class Filter(object):
     def __init__(self):

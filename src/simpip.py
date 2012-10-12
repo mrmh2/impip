@@ -32,7 +32,7 @@ def create_pipeline():
 
     pl.create_process_stage("Generate stack", 'mictostack', '')
     pl.create_process_stage("Create gaussian projection", "stacktoproj")
-    pl.create_process_stage("Get L numbers", 'lnumber', '.txt')
+    pl.create_process_stage("Get L numbers", 'genlnumbers', '.txt')
     pl.create_process_stage("Get microscope metadata", 'getmicmeta')
     pl.create_process_stage("Thresholding", 'threshold')
     pl.create_process_stage("Segmentation", 'segment')
@@ -42,15 +42,15 @@ def create_pipeline():
     pl.connect_by_name("Segmented image", "Get L numbers", "L numbers")
     pl.connect_by_name("Image stack", "Create gaussian projection", "Gaussian projection")
     pl.connect_by_name("Image stack", "Create gaussian projection", "Surface height map")
-    pl.connect_by_name("Thresholded projection", "Segmentation", "New segmented image")
-    pl.connect_by_name("Thresholded projection", "Segmentation", "False colour image")
+    #pl.connect_by_name("Thresholded projection", "Segmentation", "New segmented image")
+    #pl.connect_by_name("Thresholded projection", "Segmentation", "False colour image")
 
     pl.connect_by_name("Gaussian projection", "Thresholding", "Thresholded projection")
 
     ps = pl.pstages["Create gaussian projection"]
     ps.output_map = ["Gaussian projection", "Surface height map"]
 
-    ps = pl.pstages["Segmentation"]
-    ps.output_map = ["New segmented image", "False colour image"]
+    #ps = pl.pstages["Segmentation"]
+    #ps.output_map = ["New segmented image", "False colour image"]
 
     return pl

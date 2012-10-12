@@ -14,6 +14,7 @@ import plotpipe
 import read_from_dir as rfd
 from rawimporter import import_files
 
+
 def dataset_from_dir_name(data_dir, pl):
     dataset_name = os.path.basename(data_dir)
     return pltools.dataset_from_dir(dataset_name, data_dir, pl)
@@ -69,6 +70,13 @@ def main():
         data_dir = args.datadir
         ds = dataset_from_dir_name(data_dir, pl)
         run_pipeline(pl, ds)
+        sys.exit(0)
+
+    if command == 'mrun':
+        data_dir = args.datadir
+        dss = pltools.multiple_datasets_from_path(data_dir, pl)
+        for ds in dss:
+            pl.run(ds, noop=False)
         sys.exit(0)
 
     if command == 'import':

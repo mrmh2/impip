@@ -16,11 +16,11 @@ import subprocess
 import ConfigParser
 
 from filter import get_binary_path
+from mutil import mkdir_p
 
 bfconvert = '/usr/users/cbu/hartleym/packages/bftools/bfconvert'
 
-def process(input_filename, output_path):
-
+def single_convert(input_filename, output_path):
     make_dir_if_needed(output_path)
     basename = os.path.basename(output_path)
     fullname = "%s_C%%c_S%%s_Z%%z.png" % basename
@@ -40,6 +40,19 @@ def process(input_filename, output_path):
             print "ERROR: Binary command %s not found" % bfconvert
             sys.exit(2)
         else: raise
+
+
+def process(input_filename, output_path):
+
+    #if input_filename.find('-') != -1:
+    #    print "Stackprojing on", input_filename
+    #    path, basename = os.path.split(input_filename)
+    #    name, ext = os.path.splitext(basename)
+    #    tileno = name.split('-')[1]
+    #    print os.path.join(output_path, 'tile%d' % int(tileno))
+    #    sys.exit(0)
+    #else:
+    single_convert(input_filename, output_path)
 
 def make_dir_if_needed(dirname):
     try:

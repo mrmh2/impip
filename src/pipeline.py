@@ -164,6 +164,7 @@ class ProcessStage(object):
         for name, dstage in self.inputs.iteritems():
             # TODO - modification time stuff will go in here
             fn = data_track.get_filename(dstage)
+            #print "GOT MY INPUT", fn
             infiles.append(fn)
 
         if not all(infiles):
