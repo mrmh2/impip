@@ -99,6 +99,11 @@ class Pipeline:
             for pname, pstage in self.pstages.iteritems():
                 pstage.run(datatrack, noop=noop)
 
+    def gather_work(self, dataset):
+        for dtn, datatrack in dataset.dtracks.iteritems():
+            for pname, pstage in self.pstages.iteritems():
+                pstage.gather_work(datatrack)
+
     def run_single_track(self, datatrack):
         for pname, pstage in self.pstages.iteritems():
             pstage.run(datatrack)
@@ -156,6 +161,9 @@ class ProcessStage(object):
                 (self.filtname, input_filename, output_filename))
             pfilt = __import__(self.filtname)
             pfilt.process(input_filename, output_filename)
+
+    def gather_work(self, data_track):
+        self.logger.info("Gathering work for stage %s on data track %s" % (self.name, data_track.name))
 
     def run(self, data_track, noop=False):
         self.logger.info("Running stage %s on data track %s" % (self.name, data_track.name))

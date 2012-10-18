@@ -19,6 +19,9 @@ def dataset_from_dir_name(data_dir, pl):
     dataset_name = os.path.basename(data_dir)
     return pltools.dataset_from_dir(dataset_name, data_dir, pl)
 
+def wrun_pipeline(pl, ds):
+    pl.gather_work(ds)
+
 def run_pipeline(pl, ds):
     pl.run(ds)
 
@@ -77,6 +80,12 @@ def main():
         dss = pltools.multiple_datasets_from_path(data_dir, pl)
         for ds in dss:
             pl.run(ds, noop=False)
+        sys.exit(0)
+
+    if command == 'wrun':
+        data_dir = args.datadir
+        ds = dataset_from_dir_name(data_dir, pl)
+        wrun_pipeline(pl, ds)
         sys.exit(0)
 
     if command == 'import':

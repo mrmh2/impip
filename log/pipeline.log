@@ -12816,3 +12816,1944 @@ Running stage Thresholding on data track T00
 DataTrack) Retrieving filename for Projection of T00
 DataTrack) Retrieving filename for Thresholded projection of T00
 At least one output file exists, not overwriting Thresholding on T00
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+At least one output file exists, not overwriting Generate stack on T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+At least one output file exists, not overwriting Get microscope metadata on T00
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Surface height map of T00
+At least one output file exists, not overwriting Create gaussian projection on T00
+Running stage Thresholding on data track T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Thresholded projection of T00
+At least one output file exists, not overwriting Thresholding on T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T15-03
+DataTrack) Retrieving filename for Microscope file of T15-03
+DataTrack) Retrieving filename for Image stack of T15-03
+At least one output file exists, not overwriting Generate stack on T15-03
+Running stage Get microscope metadata on data track T15-03
+DataTrack) Retrieving filename for Microscope file of T15-03
+DataTrack) Retrieving filename for Microscope metadata of T15-03
+At least one output file exists, not overwriting Get microscope metadata on T15-03
+Running stage Create gaussian projection on data track T15-03
+DataTrack) Retrieving filename for Image stack of T15-03
+DataTrack) Retrieving filename for Projection of T15-03
+DataTrack) Retrieving filename for Surface height map of T15-03
+At least one output file exists, not overwriting Create gaussian projection on T15-03
+Running stage Thresholding on data track T15-03
+DataTrack) Retrieving filename for Projection of T15-03
+DataTrack) Retrieving filename for Thresholded projection of T15-03
+At least one output file exists, not overwriting Thresholding on T15-03
+Running stage Generate stack on data track T15-02
+DataTrack) Retrieving filename for Microscope file of T15-02
+DataTrack) Retrieving filename for Image stack of T15-02
+At least one output file exists, not overwriting Generate stack on T15-02
+Running stage Get microscope metadata on data track T15-02
+DataTrack) Retrieving filename for Microscope file of T15-02
+DataTrack) Retrieving filename for Microscope metadata of T15-02
+At least one output file exists, not overwriting Get microscope metadata on T15-02
+Running stage Create gaussian projection on data track T15-02
+DataTrack) Retrieving filename for Image stack of T15-02
+DataTrack) Retrieving filename for Projection of T15-02
+DataTrack) Retrieving filename for Surface height map of T15-02
+At least one output file exists, not overwriting Create gaussian projection on T15-02
+Running stage Thresholding on data track T15-02
+DataTrack) Retrieving filename for Projection of T15-02
+DataTrack) Retrieving filename for Thresholded projection of T15-02
+At least one output file exists, not overwriting Thresholding on T15-02
+Running stage Generate stack on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Image stack of T10
+At least one output file exists, not overwriting Generate stack on T10
+Running stage Get microscope metadata on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Microscope metadata of T10
+At least one output file exists, not overwriting Get microscope metadata on T10
+Running stage Create gaussian projection on data track T10
+DataTrack) Retrieving filename for Image stack of T10
+DataTrack) Retrieving filename for Projection of T10
+DataTrack) Retrieving filename for Surface height map of T10
+At least one output file exists, not overwriting Create gaussian projection on T10
+Running stage Thresholding on data track T10
+DataTrack) Retrieving filename for Projection of T10
+DataTrack) Retrieving filename for Thresholded projection of T10
+At least one output file exists, not overwriting Thresholding on T10
+Running stage Generate stack on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Image stack of T11
+At least one output file exists, not overwriting Generate stack on T11
+Running stage Get microscope metadata on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Microscope metadata of T11
+At least one output file exists, not overwriting Get microscope metadata on T11
+Running stage Create gaussian projection on data track T11
+DataTrack) Retrieving filename for Image stack of T11
+DataTrack) Retrieving filename for Projection of T11
+DataTrack) Retrieving filename for Surface height map of T11
+At least one output file exists, not overwriting Create gaussian projection on T11
+Running stage Thresholding on data track T11
+DataTrack) Retrieving filename for Projection of T11
+DataTrack) Retrieving filename for Thresholded projection of T11
+At least one output file exists, not overwriting Thresholding on T11
+Running stage Generate stack on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Image stack of T12
+At least one output file exists, not overwriting Generate stack on T12
+Running stage Get microscope metadata on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Microscope metadata of T12
+At least one output file exists, not overwriting Get microscope metadata on T12
+Running stage Create gaussian projection on data track T12
+DataTrack) Retrieving filename for Image stack of T12
+DataTrack) Retrieving filename for Projection of T12
+DataTrack) Retrieving filename for Surface height map of T12
+At least one output file exists, not overwriting Create gaussian projection on T12
+Running stage Thresholding on data track T12
+DataTrack) Retrieving filename for Projection of T12
+DataTrack) Retrieving filename for Thresholded projection of T12
+At least one output file exists, not overwriting Thresholding on T12
+Running stage Generate stack on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Image stack of T13
+At least one output file exists, not overwriting Generate stack on T13
+Running stage Get microscope metadata on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Microscope metadata of T13
+At least one output file exists, not overwriting Get microscope metadata on T13
+Running stage Create gaussian projection on data track T13
+DataTrack) Retrieving filename for Image stack of T13
+DataTrack) Retrieving filename for Projection of T13
+DataTrack) Retrieving filename for Surface height map of T13
+At least one output file exists, not overwriting Create gaussian projection on T13
+Running stage Thresholding on data track T13
+DataTrack) Retrieving filename for Projection of T13
+DataTrack) Retrieving filename for Thresholded projection of T13
+At least one output file exists, not overwriting Thresholding on T13
+Running stage Generate stack on data track T16-01
+DataTrack) Retrieving filename for Microscope file of T16-01
+DataTrack) Retrieving filename for Image stack of T16-01
+At least one output file exists, not overwriting Generate stack on T16-01
+Running stage Get microscope metadata on data track T16-01
+DataTrack) Retrieving filename for Microscope file of T16-01
+DataTrack) Retrieving filename for Microscope metadata of T16-01
+At least one output file exists, not overwriting Get microscope metadata on T16-01
+Running stage Create gaussian projection on data track T16-01
+DataTrack) Retrieving filename for Image stack of T16-01
+DataTrack) Retrieving filename for Projection of T16-01
+DataTrack) Retrieving filename for Surface height map of T16-01
+At least one output file exists, not overwriting Create gaussian projection on T16-01
+Running stage Thresholding on data track T16-01
+DataTrack) Retrieving filename for Projection of T16-01
+DataTrack) Retrieving filename for Thresholded projection of T16-01
+At least one output file exists, not overwriting Thresholding on T16-01
+Running stage Generate stack on data track T16-02
+DataTrack) Retrieving filename for Microscope file of T16-02
+DataTrack) Retrieving filename for Image stack of T16-02
+At least one output file exists, not overwriting Generate stack on T16-02
+Running stage Get microscope metadata on data track T16-02
+DataTrack) Retrieving filename for Microscope file of T16-02
+DataTrack) Retrieving filename for Microscope metadata of T16-02
+At least one output file exists, not overwriting Get microscope metadata on T16-02
+Running stage Create gaussian projection on data track T16-02
+DataTrack) Retrieving filename for Image stack of T16-02
+DataTrack) Retrieving filename for Projection of T16-02
+DataTrack) Retrieving filename for Surface height map of T16-02
+At least one output file exists, not overwriting Create gaussian projection on T16-02
+Running stage Thresholding on data track T16-02
+DataTrack) Retrieving filename for Projection of T16-02
+DataTrack) Retrieving filename for Thresholded projection of T16-02
+At least one output file exists, not overwriting Thresholding on T16-02
+Running stage Generate stack on data track T16-03
+DataTrack) Retrieving filename for Microscope file of T16-03
+DataTrack) Retrieving filename for Image stack of T16-03
+At least one output file exists, not overwriting Generate stack on T16-03
+Running stage Get microscope metadata on data track T16-03
+DataTrack) Retrieving filename for Microscope file of T16-03
+DataTrack) Retrieving filename for Microscope metadata of T16-03
+At least one output file exists, not overwriting Get microscope metadata on T16-03
+Running stage Create gaussian projection on data track T16-03
+DataTrack) Retrieving filename for Image stack of T16-03
+DataTrack) Retrieving filename for Projection of T16-03
+DataTrack) Retrieving filename for Surface height map of T16-03
+At least one output file exists, not overwriting Create gaussian projection on T16-03
+Running stage Thresholding on data track T16-03
+DataTrack) Retrieving filename for Projection of T16-03
+DataTrack) Retrieving filename for Thresholded projection of T16-03
+At least one output file exists, not overwriting Thresholding on T16-03
+Running stage Generate stack on data track T14-02
+DataTrack) Retrieving filename for Microscope file of T14-02
+DataTrack) Retrieving filename for Image stack of T14-02
+At least one output file exists, not overwriting Generate stack on T14-02
+Running stage Get microscope metadata on data track T14-02
+DataTrack) Retrieving filename for Microscope file of T14-02
+DataTrack) Retrieving filename for Microscope metadata of T14-02
+At least one output file exists, not overwriting Get microscope metadata on T14-02
+Running stage Create gaussian projection on data track T14-02
+DataTrack) Retrieving filename for Image stack of T14-02
+DataTrack) Retrieving filename for Projection of T14-02
+DataTrack) Retrieving filename for Surface height map of T14-02
+At least one output file exists, not overwriting Create gaussian projection on T14-02
+Running stage Thresholding on data track T14-02
+DataTrack) Retrieving filename for Projection of T14-02
+DataTrack) Retrieving filename for Thresholded projection of T14-02
+At least one output file exists, not overwriting Thresholding on T14-02
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+At least one output file exists, not overwriting Generate stack on T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+At least one output file exists, not overwriting Get microscope metadata on T00
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Surface height map of T00
+At least one output file exists, not overwriting Create gaussian projection on T00
+Running stage Thresholding on data track T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Thresholded projection of T00
+At least one output file exists, not overwriting Thresholding on T00
+Running stage Generate stack on data track T09
+DataTrack) Retrieving filename for Microscope file of T09
+DataTrack) Retrieving filename for Image stack of T09
+At least one output file exists, not overwriting Generate stack on T09
+Running stage Get microscope metadata on data track T09
+DataTrack) Retrieving filename for Microscope file of T09
+DataTrack) Retrieving filename for Microscope metadata of T09
+At least one output file exists, not overwriting Get microscope metadata on T09
+Running stage Create gaussian projection on data track T09
+DataTrack) Retrieving filename for Image stack of T09
+DataTrack) Retrieving filename for Projection of T09
+DataTrack) Retrieving filename for Surface height map of T09
+At least one output file exists, not overwriting Create gaussian projection on T09
+Running stage Thresholding on data track T09
+DataTrack) Retrieving filename for Projection of T09
+DataTrack) Retrieving filename for Thresholded projection of T09
+At least one output file exists, not overwriting Thresholding on T09
+Running stage Generate stack on data track T08
+DataTrack) Retrieving filename for Microscope file of T08
+DataTrack) Retrieving filename for Image stack of T08
+At least one output file exists, not overwriting Generate stack on T08
+Running stage Get microscope metadata on data track T08
+DataTrack) Retrieving filename for Microscope file of T08
+DataTrack) Retrieving filename for Microscope metadata of T08
+At least one output file exists, not overwriting Get microscope metadata on T08
+Running stage Create gaussian projection on data track T08
+DataTrack) Retrieving filename for Image stack of T08
+DataTrack) Retrieving filename for Projection of T08
+DataTrack) Retrieving filename for Surface height map of T08
+At least one output file exists, not overwriting Create gaussian projection on T08
+Running stage Thresholding on data track T08
+DataTrack) Retrieving filename for Projection of T08
+DataTrack) Retrieving filename for Thresholded projection of T08
+At least one output file exists, not overwriting Thresholding on T08
+Running stage Generate stack on data track T07
+DataTrack) Retrieving filename for Microscope file of T07
+DataTrack) Retrieving filename for Image stack of T07
+At least one output file exists, not overwriting Generate stack on T07
+Running stage Get microscope metadata on data track T07
+DataTrack) Retrieving filename for Microscope file of T07
+DataTrack) Retrieving filename for Microscope metadata of T07
+At least one output file exists, not overwriting Get microscope metadata on T07
+Running stage Create gaussian projection on data track T07
+DataTrack) Retrieving filename for Image stack of T07
+DataTrack) Retrieving filename for Projection of T07
+DataTrack) Retrieving filename for Surface height map of T07
+At least one output file exists, not overwriting Create gaussian projection on T07
+Running stage Thresholding on data track T07
+DataTrack) Retrieving filename for Projection of T07
+DataTrack) Retrieving filename for Thresholded projection of T07
+At least one output file exists, not overwriting Thresholding on T07
+Running stage Generate stack on data track T14-01
+DataTrack) Retrieving filename for Microscope file of T14-01
+DataTrack) Retrieving filename for Image stack of T14-01
+At least one output file exists, not overwriting Generate stack on T14-01
+Running stage Get microscope metadata on data track T14-01
+DataTrack) Retrieving filename for Microscope file of T14-01
+DataTrack) Retrieving filename for Microscope metadata of T14-01
+At least one output file exists, not overwriting Get microscope metadata on T14-01
+Running stage Create gaussian projection on data track T14-01
+DataTrack) Retrieving filename for Image stack of T14-01
+DataTrack) Retrieving filename for Projection of T14-01
+DataTrack) Retrieving filename for Surface height map of T14-01
+At least one output file exists, not overwriting Create gaussian projection on T14-01
+Running stage Thresholding on data track T14-01
+DataTrack) Retrieving filename for Projection of T14-01
+DataTrack) Retrieving filename for Thresholded projection of T14-01
+At least one output file exists, not overwriting Thresholding on T14-01
+Running stage Generate stack on data track T15-01
+DataTrack) Retrieving filename for Microscope file of T15-01
+DataTrack) Retrieving filename for Image stack of T15-01
+At least one output file exists, not overwriting Generate stack on T15-01
+Running stage Get microscope metadata on data track T15-01
+DataTrack) Retrieving filename for Microscope file of T15-01
+DataTrack) Retrieving filename for Microscope metadata of T15-01
+At least one output file exists, not overwriting Get microscope metadata on T15-01
+Running stage Create gaussian projection on data track T15-01
+DataTrack) Retrieving filename for Image stack of T15-01
+DataTrack) Retrieving filename for Projection of T15-01
+DataTrack) Retrieving filename for Surface height map of T15-01
+At least one output file exists, not overwriting Create gaussian projection on T15-01
+Running stage Thresholding on data track T15-01
+DataTrack) Retrieving filename for Projection of T15-01
+DataTrack) Retrieving filename for Thresholded projection of T15-01
+At least one output file exists, not overwriting Thresholding on T15-01
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Image stack of T11
+At least one output file exists, not overwriting Generate stack on T11
+Running stage Get microscope metadata on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Microscope metadata of T11
+At least one output file exists, not overwriting Get microscope metadata on T11
+Running stage Create gaussian projection on data track T11
+DataTrack) Retrieving filename for Image stack of T11
+DataTrack) Retrieving filename for Projection of T11
+DataTrack) Retrieving filename for Surface height map of T11
+At least one output file exists, not overwriting Create gaussian projection on T11
+Running stage Thresholding on data track T11
+DataTrack) Retrieving filename for Projection of T11
+DataTrack) Retrieving filename for Thresholded projection of T11
+At least one output file exists, not overwriting Thresholding on T11
+Running stage Generate stack on data track T14-02
+DataTrack) Retrieving filename for Microscope file of T14-02
+DataTrack) Retrieving filename for Image stack of T14-02
+At least one output file exists, not overwriting Generate stack on T14-02
+Running stage Get microscope metadata on data track T14-02
+DataTrack) Retrieving filename for Microscope file of T14-02
+DataTrack) Retrieving filename for Microscope metadata of T14-02
+At least one output file exists, not overwriting Get microscope metadata on T14-02
+Running stage Create gaussian projection on data track T14-02
+DataTrack) Retrieving filename for Image stack of T14-02
+DataTrack) Retrieving filename for Projection of T14-02
+DataTrack) Retrieving filename for Surface height map of T14-02
+At least one output file exists, not overwriting Create gaussian projection on T14-02
+Running stage Thresholding on data track T14-02
+DataTrack) Retrieving filename for Projection of T14-02
+DataTrack) Retrieving filename for Thresholded projection of T14-02
+At least one output file exists, not overwriting Thresholding on T14-02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T16-01
+DataTrack) Retrieving filename for Microscope file of T16-01
+DataTrack) Retrieving filename for Image stack of T16-01
+At least one output file exists, not overwriting Generate stack on T16-01
+Running stage Get microscope metadata on data track T16-01
+DataTrack) Retrieving filename for Microscope file of T16-01
+DataTrack) Retrieving filename for Microscope metadata of T16-01
+At least one output file exists, not overwriting Get microscope metadata on T16-01
+Running stage Create gaussian projection on data track T16-01
+DataTrack) Retrieving filename for Image stack of T16-01
+DataTrack) Retrieving filename for Projection of T16-01
+DataTrack) Retrieving filename for Surface height map of T16-01
+At least one output file exists, not overwriting Create gaussian projection on T16-01
+Running stage Thresholding on data track T16-01
+DataTrack) Retrieving filename for Projection of T16-01
+DataTrack) Retrieving filename for Thresholded projection of T16-01
+At least one output file exists, not overwriting Thresholding on T16-01
+Running stage Generate stack on data track T16-02
+DataTrack) Retrieving filename for Microscope file of T16-02
+DataTrack) Retrieving filename for Image stack of T16-02
+At least one output file exists, not overwriting Generate stack on T16-02
+Running stage Get microscope metadata on data track T16-02
+DataTrack) Retrieving filename for Microscope file of T16-02
+DataTrack) Retrieving filename for Microscope metadata of T16-02
+At least one output file exists, not overwriting Get microscope metadata on T16-02
+Running stage Create gaussian projection on data track T16-02
+DataTrack) Retrieving filename for Image stack of T16-02
+DataTrack) Retrieving filename for Projection of T16-02
+DataTrack) Retrieving filename for Surface height map of T16-02
+At least one output file exists, not overwriting Create gaussian projection on T16-02
+Running stage Thresholding on data track T16-02
+DataTrack) Retrieving filename for Projection of T16-02
+DataTrack) Retrieving filename for Thresholded projection of T16-02
+At least one output file exists, not overwriting Thresholding on T16-02
+Running stage Generate stack on data track T16-03
+DataTrack) Retrieving filename for Microscope file of T16-03
+DataTrack) Retrieving filename for Image stack of T16-03
+At least one output file exists, not overwriting Generate stack on T16-03
+Running stage Get microscope metadata on data track T16-03
+DataTrack) Retrieving filename for Microscope file of T16-03
+DataTrack) Retrieving filename for Microscope metadata of T16-03
+At least one output file exists, not overwriting Get microscope metadata on T16-03
+Running stage Create gaussian projection on data track T16-03
+DataTrack) Retrieving filename for Image stack of T16-03
+DataTrack) Retrieving filename for Projection of T16-03
+DataTrack) Retrieving filename for Surface height map of T16-03
+At least one output file exists, not overwriting Create gaussian projection on T16-03
+Running stage Thresholding on data track T16-03
+DataTrack) Retrieving filename for Projection of T16-03
+DataTrack) Retrieving filename for Thresholded projection of T16-03
+At least one output file exists, not overwriting Thresholding on T16-03
+Running stage Generate stack on data track T16-04
+DataTrack) Retrieving filename for Microscope file of T16-04
+DataTrack) Retrieving filename for Image stack of T16-04
+At least one output file exists, not overwriting Generate stack on T16-04
+Running stage Get microscope metadata on data track T16-04
+DataTrack) Retrieving filename for Microscope file of T16-04
+DataTrack) Retrieving filename for Microscope metadata of T16-04
+At least one output file exists, not overwriting Get microscope metadata on T16-04
+Running stage Create gaussian projection on data track T16-04
+DataTrack) Retrieving filename for Image stack of T16-04
+DataTrack) Retrieving filename for Projection of T16-04
+DataTrack) Retrieving filename for Surface height map of T16-04
+At least one output file exists, not overwriting Create gaussian projection on T16-04
+Running stage Thresholding on data track T16-04
+DataTrack) Retrieving filename for Projection of T16-04
+DataTrack) Retrieving filename for Thresholded projection of T16-04
+At least one output file exists, not overwriting Thresholding on T16-04
+Running stage Generate stack on data track T07
+DataTrack) Retrieving filename for Microscope file of T07
+DataTrack) Retrieving filename for Image stack of T07
+At least one output file exists, not overwriting Generate stack on T07
+Running stage Get microscope metadata on data track T07
+DataTrack) Retrieving filename for Microscope file of T07
+DataTrack) Retrieving filename for Microscope metadata of T07
+At least one output file exists, not overwriting Get microscope metadata on T07
+Running stage Create gaussian projection on data track T07
+DataTrack) Retrieving filename for Image stack of T07
+DataTrack) Retrieving filename for Projection of T07
+DataTrack) Retrieving filename for Surface height map of T07
+At least one output file exists, not overwriting Create gaussian projection on T07
+Running stage Thresholding on data track T07
+DataTrack) Retrieving filename for Projection of T07
+DataTrack) Retrieving filename for Thresholded projection of T07
+At least one output file exists, not overwriting Thresholding on T07
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T14-01
+DataTrack) Retrieving filename for Microscope file of T14-01
+DataTrack) Retrieving filename for Image stack of T14-01
+At least one output file exists, not overwriting Generate stack on T14-01
+Running stage Get microscope metadata on data track T14-01
+DataTrack) Retrieving filename for Microscope file of T14-01
+DataTrack) Retrieving filename for Microscope metadata of T14-01
+At least one output file exists, not overwriting Get microscope metadata on T14-01
+Running stage Create gaussian projection on data track T14-01
+DataTrack) Retrieving filename for Image stack of T14-01
+DataTrack) Retrieving filename for Projection of T14-01
+DataTrack) Retrieving filename for Surface height map of T14-01
+At least one output file exists, not overwriting Create gaussian projection on T14-01
+Running stage Thresholding on data track T14-01
+DataTrack) Retrieving filename for Projection of T14-01
+DataTrack) Retrieving filename for Thresholded projection of T14-01
+At least one output file exists, not overwriting Thresholding on T14-01
+Running stage Generate stack on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Image stack of T10
+At least one output file exists, not overwriting Generate stack on T10
+Running stage Get microscope metadata on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Microscope metadata of T10
+At least one output file exists, not overwriting Get microscope metadata on T10
+Running stage Create gaussian projection on data track T10
+DataTrack) Retrieving filename for Image stack of T10
+DataTrack) Retrieving filename for Projection of T10
+DataTrack) Retrieving filename for Surface height map of T10
+At least one output file exists, not overwriting Create gaussian projection on T10
+Running stage Thresholding on data track T10
+DataTrack) Retrieving filename for Projection of T10
+DataTrack) Retrieving filename for Thresholded projection of T10
+At least one output file exists, not overwriting Thresholding on T10
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Image stack of T12
+At least one output file exists, not overwriting Generate stack on T12
+Running stage Get microscope metadata on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Microscope metadata of T12
+At least one output file exists, not overwriting Get microscope metadata on T12
+Running stage Create gaussian projection on data track T12
+DataTrack) Retrieving filename for Image stack of T12
+DataTrack) Retrieving filename for Projection of T12
+DataTrack) Retrieving filename for Surface height map of T12
+At least one output file exists, not overwriting Create gaussian projection on T12
+Running stage Thresholding on data track T12
+DataTrack) Retrieving filename for Projection of T12
+DataTrack) Retrieving filename for Thresholded projection of T12
+At least one output file exists, not overwriting Thresholding on T12
+Running stage Generate stack on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Image stack of T13
+At least one output file exists, not overwriting Generate stack on T13
+Running stage Get microscope metadata on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Microscope metadata of T13
+At least one output file exists, not overwriting Get microscope metadata on T13
+Running stage Create gaussian projection on data track T13
+DataTrack) Retrieving filename for Image stack of T13
+DataTrack) Retrieving filename for Projection of T13
+DataTrack) Retrieving filename for Surface height map of T13
+At least one output file exists, not overwriting Create gaussian projection on T13
+Running stage Thresholding on data track T13
+DataTrack) Retrieving filename for Projection of T13
+DataTrack) Retrieving filename for Thresholded projection of T13
+At least one output file exists, not overwriting Thresholding on T13
+Running stage Generate stack on data track T13-s0
+DataTrack) Retrieving filename for Microscope file of T13-s0
+Not enough input files for applying Generate stack to T13-s0
+Running stage Get microscope metadata on data track T13-s0
+DataTrack) Retrieving filename for Microscope file of T13-s0
+Not enough input files for applying Get microscope metadata to T13-s0
+Running stage Create gaussian projection on data track T13-s0
+DataTrack) Retrieving filename for Image stack of T13-s0
+Not enough input files for applying Create gaussian projection to T13-s0
+Running stage Thresholding on data track T13-s0
+DataTrack) Retrieving filename for Projection of T13-s0
+DataTrack) Retrieving filename for Thresholded projection of T13-s0
+At least one output file exists, not overwriting Thresholding on T13-s0
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T08
+DataTrack) Retrieving filename for Microscope file of T08
+DataTrack) Retrieving filename for Image stack of T08
+At least one output file exists, not overwriting Generate stack on T08
+Running stage Get microscope metadata on data track T08
+DataTrack) Retrieving filename for Microscope file of T08
+DataTrack) Retrieving filename for Microscope metadata of T08
+At least one output file exists, not overwriting Get microscope metadata on T08
+Running stage Create gaussian projection on data track T08
+DataTrack) Retrieving filename for Image stack of T08
+DataTrack) Retrieving filename for Projection of T08
+DataTrack) Retrieving filename for Surface height map of T08
+At least one output file exists, not overwriting Create gaussian projection on T08
+Running stage Thresholding on data track T08
+DataTrack) Retrieving filename for Projection of T08
+DataTrack) Retrieving filename for Thresholded projection of T08
+At least one output file exists, not overwriting Thresholding on T08
+Running stage Generate stack on data track T09
+DataTrack) Retrieving filename for Microscope file of T09
+DataTrack) Retrieving filename for Image stack of T09
+At least one output file exists, not overwriting Generate stack on T09
+Running stage Get microscope metadata on data track T09
+DataTrack) Retrieving filename for Microscope file of T09
+DataTrack) Retrieving filename for Microscope metadata of T09
+At least one output file exists, not overwriting Get microscope metadata on T09
+Running stage Create gaussian projection on data track T09
+DataTrack) Retrieving filename for Image stack of T09
+DataTrack) Retrieving filename for Projection of T09
+DataTrack) Retrieving filename for Surface height map of T09
+At least one output file exists, not overwriting Create gaussian projection on T09
+Running stage Thresholding on data track T09
+DataTrack) Retrieving filename for Projection of T09
+DataTrack) Retrieving filename for Thresholded projection of T09
+At least one output file exists, not overwriting Thresholding on T09
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+At least one output file exists, not overwriting Generate stack on T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+At least one output file exists, not overwriting Get microscope metadata on T00
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Surface height map of T00
+At least one output file exists, not overwriting Create gaussian projection on T00
+Running stage Thresholding on data track T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Thresholded projection of T00
+At least one output file exists, not overwriting Thresholding on T00
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+At least one output file exists, not overwriting Generate stack on T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+At least one output file exists, not overwriting Get microscope metadata on T00
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Surface height map of T00
+At least one output file exists, not overwriting Create gaussian projection on T00
+Running stage Thresholding on data track T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Thresholded projection of T00
+At least one output file exists, not overwriting Thresholding on T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T17-03
+DataTrack) Retrieving filename for Microscope file of T17-03
+DataTrack) Retrieving filename for Image stack of T17-03
+Executing mictostack on data/ExpID3078/plantA/microscope_file/T17-03.lif to produce data/ExpID3078/plantA/image_stack/T17-03
+Running stage Get microscope metadata on data track T17-03
+DataTrack) Retrieving filename for Microscope file of T17-03
+DataTrack) Retrieving filename for Microscope metadata of T17-03
+Executing getmicmeta on data/ExpID3078/plantA/microscope_file/T17-03.lif to produce data/ExpID3078/plantA/microscope_metadata/T17-03.txt
+Running stage Create gaussian projection on data track T17-03
+DataTrack) Retrieving filename for Image stack of T17-03
+Not enough input files for applying Create gaussian projection to T17-03
+Running stage Thresholding on data track T17-03
+DataTrack) Retrieving filename for Projection of T17-03
+Not enough input files for applying Thresholding to T17-03
+Running stage Generate stack on data track T17-02
+DataTrack) Retrieving filename for Microscope file of T17-02
+DataTrack) Retrieving filename for Image stack of T17-02
+Executing mictostack on data/ExpID3078/plantA/microscope_file/T17-02.lif to produce data/ExpID3078/plantA/image_stack/T17-02
+Running stage Get microscope metadata on data track T17-02
+DataTrack) Retrieving filename for Microscope file of T17-02
+DataTrack) Retrieving filename for Microscope metadata of T17-02
+Executing getmicmeta on data/ExpID3078/plantA/microscope_file/T17-02.lif to produce data/ExpID3078/plantA/microscope_metadata/T17-02.txt
+Running stage Create gaussian projection on data track T17-02
+DataTrack) Retrieving filename for Image stack of T17-02
+Not enough input files for applying Create gaussian projection to T17-02
+Running stage Thresholding on data track T17-02
+DataTrack) Retrieving filename for Projection of T17-02
+Not enough input files for applying Thresholding to T17-02
+Running stage Generate stack on data track T17-01
+DataTrack) Retrieving filename for Microscope file of T17-01
+DataTrack) Retrieving filename for Image stack of T17-01
+Executing mictostack on data/ExpID3078/plantA/microscope_file/T17-01.lif to produce data/ExpID3078/plantA/image_stack/T17-01
+Running stage Get microscope metadata on data track T17-01
+DataTrack) Retrieving filename for Microscope file of T17-01
+DataTrack) Retrieving filename for Microscope metadata of T17-01
+Executing getmicmeta on data/ExpID3078/plantA/microscope_file/T17-01.lif to produce data/ExpID3078/plantA/microscope_metadata/T17-01.txt
+Running stage Create gaussian projection on data track T17-01
+DataTrack) Retrieving filename for Image stack of T17-01
+Not enough input files for applying Create gaussian projection to T17-01
+Running stage Thresholding on data track T17-01
+DataTrack) Retrieving filename for Projection of T17-01
+Not enough input files for applying Thresholding to T17-01
+Running stage Generate stack on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Image stack of T12
+At least one output file exists, not overwriting Generate stack on T12
+Running stage Get microscope metadata on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Microscope metadata of T12
+At least one output file exists, not overwriting Get microscope metadata on T12
+Running stage Create gaussian projection on data track T12
+DataTrack) Retrieving filename for Image stack of T12
+DataTrack) Retrieving filename for Projection of T12
+DataTrack) Retrieving filename for Surface height map of T12
+At least one output file exists, not overwriting Create gaussian projection on T12
+Running stage Thresholding on data track T12
+DataTrack) Retrieving filename for Projection of T12
+DataTrack) Retrieving filename for Thresholded projection of T12
+At least one output file exists, not overwriting Thresholding on T12
+Running stage Generate stack on data track T17-04
+DataTrack) Retrieving filename for Microscope file of T17-04
+DataTrack) Retrieving filename for Image stack of T17-04
+Executing mictostack on data/ExpID3078/plantA/microscope_file/T17-04.lif to produce data/ExpID3078/plantA/image_stack/T17-04
+Running stage Get microscope metadata on data track T17-04
+DataTrack) Retrieving filename for Microscope file of T17-04
+DataTrack) Retrieving filename for Microscope metadata of T17-04
+Executing getmicmeta on data/ExpID3078/plantA/microscope_file/T17-04.lif to produce data/ExpID3078/plantA/microscope_metadata/T17-04.txt
+Running stage Create gaussian projection on data track T17-04
+DataTrack) Retrieving filename for Image stack of T17-04
+Not enough input files for applying Create gaussian projection to T17-04
+Running stage Thresholding on data track T17-04
+DataTrack) Retrieving filename for Projection of T17-04
+Not enough input files for applying Thresholding to T17-04
+Running stage Generate stack on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Image stack of T13
+At least one output file exists, not overwriting Generate stack on T13
+Running stage Get microscope metadata on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Microscope metadata of T13
+At least one output file exists, not overwriting Get microscope metadata on T13
+Running stage Create gaussian projection on data track T13
+DataTrack) Retrieving filename for Image stack of T13
+DataTrack) Retrieving filename for Projection of T13
+DataTrack) Retrieving filename for Surface height map of T13
+At least one output file exists, not overwriting Create gaussian projection on T13
+Running stage Thresholding on data track T13
+DataTrack) Retrieving filename for Projection of T13
+DataTrack) Retrieving filename for Thresholded projection of T13
+At least one output file exists, not overwriting Thresholding on T13
+Running stage Generate stack on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Image stack of T10
+At least one output file exists, not overwriting Generate stack on T10
+Running stage Get microscope metadata on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Microscope metadata of T10
+At least one output file exists, not overwriting Get microscope metadata on T10
+Running stage Create gaussian projection on data track T10
+DataTrack) Retrieving filename for Image stack of T10
+DataTrack) Retrieving filename for Projection of T10
+DataTrack) Retrieving filename for Surface height map of T10
+At least one output file exists, not overwriting Create gaussian projection on T10
+Running stage Thresholding on data track T10
+DataTrack) Retrieving filename for Projection of T10
+DataTrack) Retrieving filename for Thresholded projection of T10
+At least one output file exists, not overwriting Thresholding on T10
+Running stage Generate stack on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Image stack of T11
+At least one output file exists, not overwriting Generate stack on T11
+Running stage Get microscope metadata on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Microscope metadata of T11
+At least one output file exists, not overwriting Get microscope metadata on T11
+Running stage Create gaussian projection on data track T11
+DataTrack) Retrieving filename for Image stack of T11
+DataTrack) Retrieving filename for Projection of T11
+DataTrack) Retrieving filename for Surface height map of T11
+At least one output file exists, not overwriting Create gaussian projection on T11
+Running stage Thresholding on data track T11
+DataTrack) Retrieving filename for Projection of T11
+DataTrack) Retrieving filename for Thresholded projection of T11
+At least one output file exists, not overwriting Thresholding on T11
+Running stage Generate stack on data track T15-03
+DataTrack) Retrieving filename for Microscope file of T15-03
+DataTrack) Retrieving filename for Image stack of T15-03
+At least one output file exists, not overwriting Generate stack on T15-03
+Running stage Get microscope metadata on data track T15-03
+DataTrack) Retrieving filename for Microscope file of T15-03
+DataTrack) Retrieving filename for Microscope metadata of T15-03
+At least one output file exists, not overwriting Get microscope metadata on T15-03
+Running stage Create gaussian projection on data track T15-03
+DataTrack) Retrieving filename for Image stack of T15-03
+DataTrack) Retrieving filename for Projection of T15-03
+DataTrack) Retrieving filename for Surface height map of T15-03
+At least one output file exists, not overwriting Create gaussian projection on T15-03
+Running stage Thresholding on data track T15-03
+DataTrack) Retrieving filename for Projection of T15-03
+DataTrack) Retrieving filename for Thresholded projection of T15-03
+At least one output file exists, not overwriting Thresholding on T15-03
+Running stage Generate stack on data track T15-02
+DataTrack) Retrieving filename for Microscope file of T15-02
+DataTrack) Retrieving filename for Image stack of T15-02
+At least one output file exists, not overwriting Generate stack on T15-02
+Running stage Get microscope metadata on data track T15-02
+DataTrack) Retrieving filename for Microscope file of T15-02
+DataTrack) Retrieving filename for Microscope metadata of T15-02
+At least one output file exists, not overwriting Get microscope metadata on T15-02
+Running stage Create gaussian projection on data track T15-02
+DataTrack) Retrieving filename for Image stack of T15-02
+DataTrack) Retrieving filename for Projection of T15-02
+DataTrack) Retrieving filename for Surface height map of T15-02
+At least one output file exists, not overwriting Create gaussian projection on T15-02
+Running stage Thresholding on data track T15-02
+DataTrack) Retrieving filename for Projection of T15-02
+DataTrack) Retrieving filename for Thresholded projection of T15-02
+At least one output file exists, not overwriting Thresholding on T15-02
+Running stage Generate stack on data track T20-05
+DataTrack) Retrieving filename for Microscope file of T20-05
+DataTrack) Retrieving filename for Image stack of T20-05
+Executing mictostack on data/ExpID3078/plantA/microscope_file/T20-05.lif to produce data/ExpID3078/plantA/image_stack/T20-05
+Running stage Get microscope metadata on data track T20-05
+DataTrack) Retrieving filename for Microscope file of T20-05
+DataTrack) Retrieving filename for Microscope metadata of T20-05
+Executing getmicmeta on data/ExpID3078/plantA/microscope_file/T20-05.lif to produce data/ExpID3078/plantA/microscope_metadata/T20-05.txt
+Running stage Create gaussian projection on data track T20-05
+DataTrack) Retrieving filename for Image stack of T20-05
+Not enough input files for applying Create gaussian projection to T20-05
+Running stage Thresholding on data track T20-05
+DataTrack) Retrieving filename for Projection of T20-05
+Not enough input files for applying Thresholding to T20-05
+Running stage Generate stack on data track T20-04
+DataTrack) Retrieving filename for Microscope file of T20-04
+DataTrack) Retrieving filename for Image stack of T20-04
+Executing mictostack on data/ExpID3078/plantA/microscope_file/T20-04.lif to produce data/ExpID3078/plantA/image_stack/T20-04
+Running stage Get microscope metadata on data track T20-04
+DataTrack) Retrieving filename for Microscope file of T20-04
+DataTrack) Retrieving filename for Microscope metadata of T20-04
+Executing getmicmeta on data/ExpID3078/plantA/microscope_file/T20-04.lif to produce data/ExpID3078/plantA/microscope_metadata/T20-04.txt
+Running stage Create gaussian projection on data track T20-04
+DataTrack) Retrieving filename for Image stack of T20-04
+Not enough input files for applying Create gaussian projection to T20-04
+Running stage Thresholding on data track T20-04
+DataTrack) Retrieving filename for Projection of T20-04
+Not enough input files for applying Thresholding to T20-04
+Running stage Generate stack on data track T20-06
+DataTrack) Retrieving filename for Microscope file of T20-06
+DataTrack) Retrieving filename for Image stack of T20-06
+Executing mictostack on data/ExpID3078/plantA/microscope_file/T20-06.lif to produce data/ExpID3078/plantA/image_stack/T20-06
+Running stage Get microscope metadata on data track T20-06
+DataTrack) Retrieving filename for Microscope file of T20-06
+DataTrack) Retrieving filename for Microscope metadata of T20-06
+Executing getmicmeta on data/ExpID3078/plantA/microscope_file/T20-06.lif to produce data/ExpID3078/plantA/microscope_metadata/T20-06.txt
+Running stage Create gaussian projection on data track T20-06
+DataTrack) Retrieving filename for Image stack of T20-06
+Not enough input files for applying Create gaussian projection to T20-06
+Running stage Thresholding on data track T20-06
+DataTrack) Retrieving filename for Projection of T20-06
+Not enough input files for applying Thresholding to T20-06
+Running stage Generate stack on data track T20-01
+DataTrack) Retrieving filename for Microscope file of T20-01
+DataTrack) Retrieving filename for Image stack of T20-01
+Executing mictostack on data/ExpID3078/plantA/microscope_file/T20-01.lif to produce data/ExpID3078/plantA/image_stack/T20-01
+Running stage Get microscope metadata on data track T20-01
+DataTrack) Retrieving filename for Microscope file of T20-01
+DataTrack) Retrieving filename for Microscope metadata of T20-01
+Executing getmicmeta on data/ExpID3078/plantA/microscope_file/T20-01.lif to produce data/ExpID3078/plantA/microscope_metadata/T20-01.txt
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+At least one output file exists, not overwriting Generate stack on T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+At least one output file exists, not overwriting Get microscope metadata on T00
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Surface height map of T00
+At least one output file exists, not overwriting Create gaussian projection on T00
+Running stage Thresholding on data track T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Thresholded projection of T00
+At least one output file exists, not overwriting Thresholding on T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T17-03
+DataTrack) Retrieving filename for Microscope file of T17-03
+DataTrack) Retrieving filename for Image stack of T17-03
+At least one output file exists, not overwriting Generate stack on T17-03
+Running stage Get microscope metadata on data track T17-03
+DataTrack) Retrieving filename for Microscope file of T17-03
+DataTrack) Retrieving filename for Microscope metadata of T17-03
+At least one output file exists, not overwriting Get microscope metadata on T17-03
+Running stage Create gaussian projection on data track T17-03
+DataTrack) Retrieving filename for Image stack of T17-03
+DataTrack) Retrieving filename for Projection of T17-03
+DataTrack) Retrieving filename for Surface height map of T17-03
+Executing stacktoproj on ['data/ExpID3078/plantA/image_stack/T17-03'] to produce ['data/ExpID3078/plantA/projection/T17-03.png', 'data/ExpID3078/plantA/surface_height_map/T17-03.png']
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+At least one output file exists, not overwriting Generate stack on T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+At least one output file exists, not overwriting Get microscope metadata on T00
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Surface height map of T00
+At least one output file exists, not overwriting Create gaussian projection on T00
+Running stage Thresholding on data track T00
+DataTrack) Retrieving filename for Projection of T00
+DataTrack) Retrieving filename for Thresholded projection of T00
+At least one output file exists, not overwriting Thresholding on T00
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Generate stack on data track T17-03
+DataTrack) Retrieving filename for Microscope file of T17-03
+DataTrack) Retrieving filename for Image stack of T17-03
+At least one output file exists, not overwriting Generate stack on T17-03
+Running stage Get microscope metadata on data track T17-03
+DataTrack) Retrieving filename for Microscope file of T17-03
+DataTrack) Retrieving filename for Microscope metadata of T17-03
+At least one output file exists, not overwriting Get microscope metadata on T17-03
+Running stage Create gaussian projection on data track T17-03
+DataTrack) Retrieving filename for Image stack of T17-03
+DataTrack) Retrieving filename for Projection of T17-03
+DataTrack) Retrieving filename for Surface height map of T17-03
+Executing stacktoproj on ['data/ExpID3078/plantA/image_stack/T17-03'] to produce ['data/ExpID3078/plantA/projection/T17-03.png', 'data/ExpID3078/plantA/surface_height_map/T17-03.png']
+Gathering work
+Gathering work
+Gathering work
+Gathering work
+Gathering work
+Gathering work for stage %s on data track %s
+Gathering work for stage Segmentation on data track T00
+Gathering work for stage Generate stack on data track T00
+Gathering work for stage Get microscope metadata on data track T00
+Gathering work for stage Create gaussian projection on data track T00
+Gathering work for stage Get L numbers on data track T00

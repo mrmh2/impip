@@ -27,8 +27,8 @@ def single_projection(input_path, projection_file, surface_file):
 
     tmpdir = tempfile.mkdtemp()
     gaussproj = get_binary_path('config/tools.cfg', 'stacktoproj')
-    output_projection = 'proj-g3d-8-8-6-10.png'
-    output_surface = 'surface-g3d-8-8-6-10.png'
+    output_projection = 'proj-g3d-3-3-2-10.png'
+    output_surface = 'surface-g3d-3-3-2-10.png'
     cmd = [
             gaussproj,
             input_path,
