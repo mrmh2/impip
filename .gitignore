@@ -3,3 +3,4 @@ data/
 bin/
 Tmp/
 data
+*.log

@@ -10,10 +10,8 @@ import pprint
 import argparse
 
 import pltools
-import plotpipe
 import read_from_dir as rfd
 from rawimporter import import_files
-
 
 def dataset_from_dir_name(data_dir, pl):
     dataset_name = os.path.basename(data_dir)
@@ -40,6 +38,11 @@ def print_data(pl, ds):
     pprint.pprint(d)
 
 def plot_pipeline(pl, output_file):
+    #try:
+    #    import plotpipe
+    #except ImportError:
+    #    raise
+
     plotpipe.draw_pretty(pl, output_file)
 
 def main():

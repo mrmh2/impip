@@ -27,6 +27,17 @@ def get_data_files(dataset_name, time_point=None, pipeline_name='simpip'):
         dk = sorted_nicely(d.keys())
         return d[dk[time_point]]
 
+def get_files_dictionary(dataset_path, time_point=None, pipeline_name='simpip'):
+    data_dir = dataset_path
+    ds = rfd.dataset_from_dir(dataset_path, data_dir, pipeline_name)
+    d = ds.get_data()
+
+    if time_point is None:
+        return d
+    else:
+        dk = sorted_nicely(d.keys())
+        return d[dk[time_point]]
+
 def main():
     try:
         dataset_name = sys.argv[1]

@@ -17,6 +17,8 @@ import tempfile
 import subprocess
 
 from filter import get_binary_path
+from path_utils import dirit
+from gaussproj import projection_from_file_list
 
 #gaussproj = '/storage/shared/tools/gaussproj/gaussproj.py'
 
@@ -24,6 +26,7 @@ def single_projection(input_path, projection_file, surface_file):
 
     print "I got called to turn %s into projection %s and surface %s" % (input_path, 
         projection_file, surface_file)
+
 
     tmpdir = tempfile.mkdtemp()
     gaussproj = get_binary_path('config/tools.cfg', 'stacktoproj')
@@ -62,6 +65,23 @@ def process(input_paths, output_filenames):
 
     tmpdir = tempfile.mkdtemp()
     #make_dir_if_needed(tmpdir)
+
+    fds = dirit(input_path)
+    proj_path = os.path.split(output_filenames[0])[0]
+    surf_path = os.path.split(output_filenames[1])[0]
+
+    for fn in fds:
+        proj_file = os.path.join(proj_path, fn) + '.png'
+        surf_file = os.path.join(surf_path, fn) + '.png'
+
+        params = 3, 3, 2, 0
+
+        file_list = [os.path.join(input_path, f) for f in fds[fn]]
+
+        projection_from_file_list(file_list, proj_file, surf_file, params)
+
+    sys.exit(0)
+        #single_projection(
 
 
     subdirs = [d for d in os.listdir(input_path) if 

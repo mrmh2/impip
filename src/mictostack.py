@@ -23,7 +23,7 @@ bfconvert = '/usr/users/cbu/hartleym/packages/bftools/bfconvert'
 def single_convert(input_filename, output_path):
     make_dir_if_needed(output_path)
     basename = os.path.basename(output_path)
-    fullname = "%s_C%%c_S%%s_Z%%z.png" % basename
+    fullname = "%s_X%%t_C%%c_S%%s_Z%%z.png" % basename
     fullpath = os.path.join(output_path, fullname)
 
     bfconvert = get_binary_path('config/tools.cfg', 'mictostack')

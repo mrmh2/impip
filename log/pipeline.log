@@ -14757,3 +14757,1659 @@ Gathering work for stage Generate stack on data track T00
 Gathering work for stage Get microscope metadata on data track T00
 Gathering work for stage Create gaussian projection on data track T00
 Gathering work for stage Get L numbers on data track T00
+Running stage Get L numbers on data track T14
+DataTrack) Retrieving filename for Segmented image of T14
+DataTrack) Retrieving filename for L numbers of T14
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T14.png to produce data/ExpID3078/plantA/l_numbers/T14.txt
+Running stage Get L numbers on data track T15
+DataTrack) Retrieving filename for Segmented image of T15
+DataTrack) Retrieving filename for L numbers of T15
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T15.png to produce data/ExpID3078/plantA/l_numbers/T15.txt
+Running stage Get L numbers on data track T16
+DataTrack) Retrieving filename for Segmented image of T16
+DataTrack) Retrieving filename for L numbers of T16
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T16.png to produce data/ExpID3078/plantA/l_numbers/T16.txt
+Running stage Get L numbers on data track T17
+DataTrack) Retrieving filename for Segmented image of T17
+DataTrack) Retrieving filename for L numbers of T17
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T17.png to produce data/ExpID3078/plantA/l_numbers/T17.txt
+Running stage Get L numbers on data track T10
+DataTrack) Retrieving filename for Segmented image of T10
+DataTrack) Retrieving filename for L numbers of T10
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T10.png to produce data/ExpID3078/plantA/l_numbers/T10.txt
+Running stage Get L numbers on data track T11
+DataTrack) Retrieving filename for Segmented image of T11
+DataTrack) Retrieving filename for L numbers of T11
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T11.png to produce data/ExpID3078/plantA/l_numbers/T11.txt
+Running stage Get L numbers on data track T12
+DataTrack) Retrieving filename for Segmented image of T12
+DataTrack) Retrieving filename for L numbers of T12
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T12.png to produce data/ExpID3078/plantA/l_numbers/T12.txt
+Running stage Get L numbers on data track T13
+DataTrack) Retrieving filename for Segmented image of T13
+DataTrack) Retrieving filename for L numbers of T13
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T13.png to produce data/ExpID3078/plantA/l_numbers/T13.txt
+Running stage Get L numbers on data track T18
+DataTrack) Retrieving filename for Segmented image of T18
+DataTrack) Retrieving filename for L numbers of T18
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T18.png to produce data/ExpID3078/plantA/l_numbers/T18.txt
+Running stage Get L numbers on data track T19
+DataTrack) Retrieving filename for Segmented image of T19
+DataTrack) Retrieving filename for L numbers of T19
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T19.png to produce data/ExpID3078/plantA/l_numbers/T19.txt
+Running stage Get L numbers on data track T07
+DataTrack) Retrieving filename for Segmented image of T07
+DataTrack) Retrieving filename for L numbers of T07
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T07.png to produce data/ExpID3078/plantA/l_numbers/T07.txt
+Running stage Get L numbers on data track T06
+DataTrack) Retrieving filename for Segmented image of T06
+DataTrack) Retrieving filename for L numbers of T06
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T06.png to produce data/ExpID3078/plantA/l_numbers/T06.txt
+Running stage Get L numbers on data track T05
+DataTrack) Retrieving filename for Segmented image of T05
+DataTrack) Retrieving filename for L numbers of T05
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T05.png to produce data/ExpID3078/plantA/l_numbers/T05.txt
+Running stage Get L numbers on data track T04
+DataTrack) Retrieving filename for Segmented image of T04
+DataTrack) Retrieving filename for L numbers of T04
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T04.png to produce data/ExpID3078/plantA/l_numbers/T04.txt
+Running stage Get L numbers on data track T03
+DataTrack) Retrieving filename for Segmented image of T03
+DataTrack) Retrieving filename for L numbers of T03
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T03.png to produce data/ExpID3078/plantA/l_numbers/T03.txt
+Running stage Get L numbers on data track T02
+DataTrack) Retrieving filename for Segmented image of T02
+DataTrack) Retrieving filename for L numbers of T02
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T02.png to produce data/ExpID3078/plantA/l_numbers/T02.txt
+Running stage Get L numbers on data track T01
+DataTrack) Retrieving filename for Segmented image of T01
+DataTrack) Retrieving filename for L numbers of T01
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T01.png to produce data/ExpID3078/plantA/l_numbers/T01.txt
+Running stage Get L numbers on data track T00
+DataTrack) Retrieving filename for Segmented image of T00
+DataTrack) Retrieving filename for L numbers of T00
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T00.png to produce data/ExpID3078/plantA/l_numbers/T00.txt
+Running stage Get L numbers on data track T21
+DataTrack) Retrieving filename for Segmented image of T21
+DataTrack) Retrieving filename for L numbers of T21
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T21.png to produce data/ExpID3078/plantA/l_numbers/T21.txt
+Running stage Get L numbers on data track T20
+DataTrack) Retrieving filename for Segmented image of T20
+DataTrack) Retrieving filename for L numbers of T20
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T20.png to produce data/ExpID3078/plantA/l_numbers/T20.txt
+Running stage Get L numbers on data track T09
+DataTrack) Retrieving filename for Segmented image of T09
+DataTrack) Retrieving filename for L numbers of T09
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T09.png to produce data/ExpID3078/plantA/l_numbers/T09.txt
+Running stage Get L numbers on data track T08
+DataTrack) Retrieving filename for Segmented image of T08
+DataTrack) Retrieving filename for L numbers of T08
+Executing genlnumbers on data/ExpID3078/plantA/segmented_image/T08.png to produce data/ExpID3078/plantA/l_numbers/T08.txt
+Running stage Segmentation on data track ExpID3121_wltp_03_04
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_wltp_03_04
+Not enough input files for applying Thresholding to ExpID3121_wltp_03_04
+Running stage Get microscope metadata on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope file of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope metadata of ExpID3121_wltp_03_04
+Executing getmicmeta on /common/data/test/microscope_file/ExpID3121_wltp_03_04.lif to produce /common/data/test/microscope_metadata/ExpID3121_wltp_03_04.png
+Running stage Create gaussian projection on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Image stack of ExpID3121_wltp_03_04
+Not enough input files for applying Create gaussian projection to ExpID3121_wltp_03_04
+Running stage Generate stack on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope file of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Image stack of ExpID3121_wltp_03_04
+Executing mictostack on /common/data/test/microscope_file/ExpID3121_wltp_03_04.lif to produce /common/data/test/image_stack/ExpID3121_wltp_03_04
+Running stage Get L numbers on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Segmented image of ExpID3121_wltp_03_04
+Not enough input files for applying Get L numbers to ExpID3121_wltp_03_04
+Running stage Segmentation on data track ExpID3121_wltp_03_04
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_wltp_03_04
+Not enough input files for applying Thresholding to ExpID3121_wltp_03_04
+Running stage Get microscope metadata on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope file of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope metadata of ExpID3121_wltp_03_04
+At least one output file exists, not overwriting Get microscope metadata on ExpID3121_wltp_03_04
+Running stage Create gaussian projection on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Image stack of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Surface height map of ExpID3121_wltp_03_04
+Executing stacktoproj on ['/common/data/test/image_stack/ExpID3121_wltp_03_04'] to produce ['/common/data/test/gaussian_projection/ExpID3121_wltp_03_04.png', '/common/data/test/surface_height_map/ExpID3121_wltp_03_04.png']
+Running stage Generate stack on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope file of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Image stack of ExpID3121_wltp_03_04
+At least one output file exists, not overwriting Generate stack on ExpID3121_wltp_03_04
+Running stage Get L numbers on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Segmented image of ExpID3121_wltp_03_04
+Not enough input files for applying Get L numbers to ExpID3121_wltp_03_04
+Running stage Segmentation on data track ExpID3121_wltp_03_04
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Thresholded projection of ExpID3121_wltp_03_04
+Executing threshold on /common/data/test/gaussian_projection/ExpID3121_wltp_03_04.png to produce /common/data/test/thresholded_projection/ExpID3121_wltp_03_04.png
+Running stage Get microscope metadata on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope file of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope metadata of ExpID3121_wltp_03_04
+At least one output file exists, not overwriting Get microscope metadata on ExpID3121_wltp_03_04
+Running stage Create gaussian projection on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Image stack of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Surface height map of ExpID3121_wltp_03_04
+At least one output file exists, not overwriting Create gaussian projection on ExpID3121_wltp_03_04
+Running stage Generate stack on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Microscope file of ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Image stack of ExpID3121_wltp_03_04
+At least one output file exists, not overwriting Generate stack on ExpID3121_wltp_03_04
+Running stage Get L numbers on data track ExpID3121_wltp_03_04
+DataTrack) Retrieving filename for Segmented image of ExpID3121_wltp_03_04
+Not enough input files for applying Get L numbers to ExpID3121_wltp_03_04
+Running stage Segmentation on data track ExpID3121_35SPIN_02_02
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_35SPIN_02_02
+Not enough input files for applying Thresholding to ExpID3121_35SPIN_02_02
+Running stage Get microscope metadata on data track ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Microscope file of ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Microscope metadata of ExpID3121_35SPIN_02_02
+At least one output file exists, not overwriting Get microscope metadata on ExpID3121_35SPIN_02_02
+Running stage Create gaussian projection on data track ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Image stack of ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Surface height map of ExpID3121_35SPIN_02_02
+Executing stacktoproj on ['/common/data/ExpID3121/image_stack/ExpID3121_35SPIN_02_02'] to produce ['/common/data/ExpID3121/gaussian_projection/ExpID3121_35SPIN_02_02.png', '/common/data/ExpID3121/surface_height_map/ExpID3121_35SPIN_02_02.png']
+Running stage Segmentation on data track ExpID3121_35SPIN_02_02
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_35SPIN_02_02
+Not enough input files for applying Thresholding to ExpID3121_35SPIN_02_02
+Running stage Get microscope metadata on data track ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Microscope file of ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Microscope metadata of ExpID3121_35SPIN_02_02
+At least one output file exists, not overwriting Get microscope metadata on ExpID3121_35SPIN_02_02
+Running stage Create gaussian projection on data track ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Image stack of ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Gaussian projection of ExpID3121_35SPIN_02_02
+DataTrack) Retrieving filename for Surface height map of ExpID3121_35SPIN_02_02
+Executing stacktoproj on ['/common/data/ExpID3121/image_stack/ExpID3121_35SPIN_02_02'] to produce ['/common/data/ExpID3121/gaussian_projection/ExpID3121_35SPIN_02_02.png', '/common/data/ExpID3121/surface_height_map/ExpID3121_35SPIN_02_02.png']
+Running stage Segmentation on data track T11
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T11
+DataTrack) Retrieving filename for Gaussian projection of T11
+DataTrack) Retrieving filename for Thresholded projection of T11
+At least one output file exists, not overwriting Thresholding on T11
+Running stage Get microscope metadata on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Microscope metadata of T11
+At least one output file exists, not overwriting Get microscope metadata on T11
+Running stage Create gaussian projection on data track T11
+DataTrack) Retrieving filename for Image stack of T11
+DataTrack) Retrieving filename for Gaussian projection of T11
+DataTrack) Retrieving filename for Surface height map of T11
+At least one output file exists, not overwriting Create gaussian projection on T11
+Running stage Generate stack on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Image stack of T11
+At least one output file exists, not overwriting Generate stack on T11
+Running stage Get L numbers on data track T11
+DataTrack) Retrieving filename for Segmented image of T11
+DataTrack) Retrieving filename for L numbers of T11
+At least one output file exists, not overwriting Get L numbers on T11
+Running stage Segmentation on data track T14
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T14
+DataTrack) Retrieving filename for Gaussian projection of T14
+DataTrack) Retrieving filename for Thresholded projection of T14
+At least one output file exists, not overwriting Thresholding on T14
+Running stage Get microscope metadata on data track T14
+DataTrack) Retrieving filename for Microscope file of T14
+DataTrack) Retrieving filename for Microscope metadata of T14
+At least one output file exists, not overwriting Get microscope metadata on T14
+Running stage Create gaussian projection on data track T14
+DataTrack) Retrieving filename for Image stack of T14
+DataTrack) Retrieving filename for Gaussian projection of T14
+DataTrack) Retrieving filename for Surface height map of T14
+At least one output file exists, not overwriting Create gaussian projection on T14
+Running stage Generate stack on data track T14
+DataTrack) Retrieving filename for Microscope file of T14
+DataTrack) Retrieving filename for Image stack of T14
+At least one output file exists, not overwriting Generate stack on T14
+Running stage Get L numbers on data track T14
+DataTrack) Retrieving filename for Segmented image of T14
+DataTrack) Retrieving filename for L numbers of T14
+At least one output file exists, not overwriting Get L numbers on T14
+Running stage Segmentation on data track T01
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Gaussian projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Gaussian projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get L numbers on data track T01
+DataTrack) Retrieving filename for Segmented image of T01
+DataTrack) Retrieving filename for L numbers of T01
+At least one output file exists, not overwriting Get L numbers on T01
+Running stage Segmentation on data track T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T15
+DataTrack) Retrieving filename for Gaussian projection of T15
+DataTrack) Retrieving filename for Thresholded projection of T15
+At least one output file exists, not overwriting Thresholding on T15
+Running stage Get microscope metadata on data track T15
+DataTrack) Retrieving filename for Microscope file of T15
+DataTrack) Retrieving filename for Microscope metadata of T15
+At least one output file exists, not overwriting Get microscope metadata on T15
+Running stage Create gaussian projection on data track T15
+DataTrack) Retrieving filename for Image stack of T15
+DataTrack) Retrieving filename for Gaussian projection of T15
+DataTrack) Retrieving filename for Surface height map of T15
+At least one output file exists, not overwriting Create gaussian projection on T15
+Running stage Generate stack on data track T15
+DataTrack) Retrieving filename for Microscope file of T15
+DataTrack) Retrieving filename for Image stack of T15
+At least one output file exists, not overwriting Generate stack on T15
+Running stage Get L numbers on data track T15
+DataTrack) Retrieving filename for Segmented image of T15
+DataTrack) Retrieving filename for L numbers of T15
+At least one output file exists, not overwriting Get L numbers on T15
+Running stage Segmentation on data track T04
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Gaussian projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Gaussian projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get L numbers on data track T04
+DataTrack) Retrieving filename for Segmented image of T04
+DataTrack) Retrieving filename for L numbers of T04
+At least one output file exists, not overwriting Get L numbers on T04
+Running stage Segmentation on data track T00
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T00
+DataTrack) Retrieving filename for Gaussian projection of T00
+DataTrack) Retrieving filename for Thresholded projection of T00
+At least one output file exists, not overwriting Thresholding on T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+At least one output file exists, not overwriting Get microscope metadata on T00
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+DataTrack) Retrieving filename for Gaussian projection of T00
+DataTrack) Retrieving filename for Surface height map of T00
+At least one output file exists, not overwriting Create gaussian projection on T00
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+At least one output file exists, not overwriting Generate stack on T00
+Running stage Get L numbers on data track T00
+DataTrack) Retrieving filename for Segmented image of T00
+DataTrack) Retrieving filename for L numbers of T00
+At least one output file exists, not overwriting Get L numbers on T00
+Running stage Segmentation on data track T16
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T16
+DataTrack) Retrieving filename for Gaussian projection of T16
+DataTrack) Retrieving filename for Thresholded projection of T16
+At least one output file exists, not overwriting Thresholding on T16
+Running stage Get microscope metadata on data track T16
+DataTrack) Retrieving filename for Microscope file of T16
+DataTrack) Retrieving filename for Microscope metadata of T16
+At least one output file exists, not overwriting Get microscope metadata on T16
+Running stage Create gaussian projection on data track T16
+DataTrack) Retrieving filename for Image stack of T16
+DataTrack) Retrieving filename for Gaussian projection of T16
+DataTrack) Retrieving filename for Surface height map of T16
+At least one output file exists, not overwriting Create gaussian projection on T16
+Running stage Generate stack on data track T16
+DataTrack) Retrieving filename for Microscope file of T16
+DataTrack) Retrieving filename for Image stack of T16
+At least one output file exists, not overwriting Generate stack on T16
+Running stage Get L numbers on data track T16
+DataTrack) Retrieving filename for Segmented image of T16
+DataTrack) Retrieving filename for L numbers of T16
+At least one output file exists, not overwriting Get L numbers on T16
+Running stage Segmentation on data track T07
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T07
+DataTrack) Retrieving filename for Gaussian projection of T07
+DataTrack) Retrieving filename for Thresholded projection of T07
+At least one output file exists, not overwriting Thresholding on T07
+Running stage Get microscope metadata on data track T07
+DataTrack) Retrieving filename for Microscope file of T07
+DataTrack) Retrieving filename for Microscope metadata of T07
+At least one output file exists, not overwriting Get microscope metadata on T07
+Running stage Create gaussian projection on data track T07
+DataTrack) Retrieving filename for Image stack of T07
+DataTrack) Retrieving filename for Gaussian projection of T07
+DataTrack) Retrieving filename for Surface height map of T07
+At least one output file exists, not overwriting Create gaussian projection on T07
+Running stage Generate stack on data track T07
+DataTrack) Retrieving filename for Microscope file of T07
+DataTrack) Retrieving filename for Image stack of T07
+At least one output file exists, not overwriting Generate stack on T07
+Running stage Get L numbers on data track T07
+DataTrack) Retrieving filename for Segmented image of T07
+DataTrack) Retrieving filename for L numbers of T07
+At least one output file exists, not overwriting Get L numbers on T07
+Running stage Segmentation on data track T06
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Gaussian projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Gaussian projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get L numbers on data track T06
+DataTrack) Retrieving filename for Segmented image of T06
+DataTrack) Retrieving filename for L numbers of T06
+At least one output file exists, not overwriting Get L numbers on T06
+Running stage Segmentation on data track T05
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Gaussian projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Gaussian projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get L numbers on data track T05
+DataTrack) Retrieving filename for Segmented image of T05
+DataTrack) Retrieving filename for L numbers of T05
+At least one output file exists, not overwriting Get L numbers on T05
+Running stage Segmentation on data track T17
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T17
+DataTrack) Retrieving filename for Gaussian projection of T17
+DataTrack) Retrieving filename for Thresholded projection of T17
+At least one output file exists, not overwriting Thresholding on T17
+Running stage Get microscope metadata on data track T17
+DataTrack) Retrieving filename for Microscope file of T17
+DataTrack) Retrieving filename for Microscope metadata of T17
+At least one output file exists, not overwriting Get microscope metadata on T17
+Running stage Create gaussian projection on data track T17
+DataTrack) Retrieving filename for Image stack of T17
+DataTrack) Retrieving filename for Gaussian projection of T17
+DataTrack) Retrieving filename for Surface height map of T17
+At least one output file exists, not overwriting Create gaussian projection on T17
+Running stage Generate stack on data track T17
+DataTrack) Retrieving filename for Microscope file of T17
+DataTrack) Retrieving filename for Image stack of T17
+At least one output file exists, not overwriting Generate stack on T17
+Running stage Get L numbers on data track T17
+DataTrack) Retrieving filename for Segmented image of T17
+DataTrack) Retrieving filename for L numbers of T17
+At least one output file exists, not overwriting Get L numbers on T17
+Running stage Segmentation on data track T10
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T10
+DataTrack) Retrieving filename for Gaussian projection of T10
+DataTrack) Retrieving filename for Thresholded projection of T10
+At least one output file exists, not overwriting Thresholding on T10
+Running stage Get microscope metadata on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Microscope metadata of T10
+At least one output file exists, not overwriting Get microscope metadata on T10
+Running stage Create gaussian projection on data track T10
+DataTrack) Retrieving filename for Image stack of T10
+DataTrack) Retrieving filename for Gaussian projection of T10
+DataTrack) Retrieving filename for Surface height map of T10
+At least one output file exists, not overwriting Create gaussian projection on T10
+Running stage Generate stack on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Image stack of T10
+At least one output file exists, not overwriting Generate stack on T10
+Running stage Get L numbers on data track T10
+DataTrack) Retrieving filename for Segmented image of T10
+DataTrack) Retrieving filename for L numbers of T10
+At least one output file exists, not overwriting Get L numbers on T10
+Running stage Segmentation on data track T02
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Gaussian projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Gaussian projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get L numbers on data track T02
+DataTrack) Retrieving filename for Segmented image of T02
+DataTrack) Retrieving filename for L numbers of T02
+At least one output file exists, not overwriting Get L numbers on T02
+Running stage Segmentation on data track T12
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T12
+DataTrack) Retrieving filename for Gaussian projection of T12
+DataTrack) Retrieving filename for Thresholded projection of T12
+At least one output file exists, not overwriting Thresholding on T12
+Running stage Get microscope metadata on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Microscope metadata of T12
+At least one output file exists, not overwriting Get microscope metadata on T12
+Running stage Create gaussian projection on data track T12
+DataTrack) Retrieving filename for Image stack of T12
+DataTrack) Retrieving filename for Gaussian projection of T12
+DataTrack) Retrieving filename for Surface height map of T12
+At least one output file exists, not overwriting Create gaussian projection on T12
+Running stage Generate stack on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Image stack of T12
+At least one output file exists, not overwriting Generate stack on T12
+Running stage Get L numbers on data track T12
+DataTrack) Retrieving filename for Segmented image of T12
+DataTrack) Retrieving filename for L numbers of T12
+At least one output file exists, not overwriting Get L numbers on T12
+Running stage Segmentation on data track T13
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T13
+DataTrack) Retrieving filename for Gaussian projection of T13
+DataTrack) Retrieving filename for Thresholded projection of T13
+At least one output file exists, not overwriting Thresholding on T13
+Running stage Get microscope metadata on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Microscope metadata of T13
+At least one output file exists, not overwriting Get microscope metadata on T13
+Running stage Create gaussian projection on data track T13
+DataTrack) Retrieving filename for Image stack of T13
+DataTrack) Retrieving filename for Gaussian projection of T13
+DataTrack) Retrieving filename for Surface height map of T13
+At least one output file exists, not overwriting Create gaussian projection on T13
+Running stage Generate stack on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Image stack of T13
+At least one output file exists, not overwriting Generate stack on T13
+Running stage Get L numbers on data track T13
+DataTrack) Retrieving filename for Segmented image of T13
+DataTrack) Retrieving filename for L numbers of T13
+At least one output file exists, not overwriting Get L numbers on T13
+Running stage Segmentation on data track T03
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Gaussian projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Gaussian projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get L numbers on data track T03
+DataTrack) Retrieving filename for Segmented image of T03
+DataTrack) Retrieving filename for L numbers of T03
+At least one output file exists, not overwriting Get L numbers on T03
+Running stage Segmentation on data track T18
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T18
+DataTrack) Retrieving filename for Gaussian projection of T18
+DataTrack) Retrieving filename for Thresholded projection of T18
+At least one output file exists, not overwriting Thresholding on T18
+Running stage Get microscope metadata on data track T18
+DataTrack) Retrieving filename for Microscope file of T18
+DataTrack) Retrieving filename for Microscope metadata of T18
+At least one output file exists, not overwriting Get microscope metadata on T18
+Running stage Create gaussian projection on data track T18
+DataTrack) Retrieving filename for Image stack of T18
+DataTrack) Retrieving filename for Gaussian projection of T18
+DataTrack) Retrieving filename for Surface height map of T18
+At least one output file exists, not overwriting Create gaussian projection on T18
+Running stage Generate stack on data track T18
+DataTrack) Retrieving filename for Microscope file of T18
+DataTrack) Retrieving filename for Image stack of T18
+At least one output file exists, not overwriting Generate stack on T18
+Running stage Get L numbers on data track T18
+DataTrack) Retrieving filename for Segmented image of T18
+DataTrack) Retrieving filename for L numbers of T18
+At least one output file exists, not overwriting Get L numbers on T18
+Running stage Segmentation on data track T09
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T09
+DataTrack) Retrieving filename for Gaussian projection of T09
+DataTrack) Retrieving filename for Thresholded projection of T09
+At least one output file exists, not overwriting Thresholding on T09
+Running stage Get microscope metadata on data track T09
+DataTrack) Retrieving filename for Microscope file of T09
+DataTrack) Retrieving filename for Microscope metadata of T09
+At least one output file exists, not overwriting Get microscope metadata on T09
+Running stage Create gaussian projection on data track T09
+DataTrack) Retrieving filename for Image stack of T09
+DataTrack) Retrieving filename for Gaussian projection of T09
+DataTrack) Retrieving filename for Surface height map of T09
+At least one output file exists, not overwriting Create gaussian projection on T09
+Running stage Generate stack on data track T09
+DataTrack) Retrieving filename for Microscope file of T09
+DataTrack) Retrieving filename for Image stack of T09
+At least one output file exists, not overwriting Generate stack on T09
+Running stage Get L numbers on data track T09
+DataTrack) Retrieving filename for Segmented image of T09
+DataTrack) Retrieving filename for L numbers of T09
+At least one output file exists, not overwriting Get L numbers on T09
+Running stage Segmentation on data track T08
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T08
+DataTrack) Retrieving filename for Gaussian projection of T08
+DataTrack) Retrieving filename for Thresholded projection of T08
+At least one output file exists, not overwriting Thresholding on T08
+Running stage Get microscope metadata on data track T08
+DataTrack) Retrieving filename for Microscope file of T08
+DataTrack) Retrieving filename for Microscope metadata of T08
+At least one output file exists, not overwriting Get microscope metadata on T08
+Running stage Create gaussian projection on data track T08
+DataTrack) Retrieving filename for Image stack of T08
+DataTrack) Retrieving filename for Gaussian projection of T08
+DataTrack) Retrieving filename for Surface height map of T08
+At least one output file exists, not overwriting Create gaussian projection on T08
+Running stage Generate stack on data track T08
+DataTrack) Retrieving filename for Microscope file of T08
+DataTrack) Retrieving filename for Image stack of T08
+At least one output file exists, not overwriting Generate stack on T08
+Running stage Get L numbers on data track T08
+DataTrack) Retrieving filename for Segmented image of T08
+DataTrack) Retrieving filename for L numbers of T08
+At least one output file exists, not overwriting Get L numbers on T08
+Running stage Segmentation on data track T11
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T11
+DataTrack) Retrieving filename for Gaussian projection of T11
+DataTrack) Retrieving filename for Thresholded projection of T11
+At least one output file exists, not overwriting Thresholding on T11
+Running stage Get microscope metadata on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Microscope metadata of T11
+At least one output file exists, not overwriting Get microscope metadata on T11
+Running stage Create gaussian projection on data track T11
+DataTrack) Retrieving filename for Image stack of T11
+DataTrack) Retrieving filename for Gaussian projection of T11
+DataTrack) Retrieving filename for Surface height map of T11
+At least one output file exists, not overwriting Create gaussian projection on T11
+Running stage Generate stack on data track T11
+DataTrack) Retrieving filename for Microscope file of T11
+DataTrack) Retrieving filename for Image stack of T11
+At least one output file exists, not overwriting Generate stack on T11
+Running stage Get L numbers on data track T11
+DataTrack) Retrieving filename for Segmented image of T11
+DataTrack) Retrieving filename for L numbers of T11
+At least one output file exists, not overwriting Get L numbers on T11
+Running stage Cell shape analysis on data track T11
+DataTrack) Retrieving filename for Segmented image of T11
+DataTrack) Retrieving filename for CSA of T11
+Executing gencsa on data/newexp/segmented_image/T11.png to produce data/newexp/csa/T11.txt
+Running stage Segmentation on data track T14
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T14
+DataTrack) Retrieving filename for Gaussian projection of T14
+DataTrack) Retrieving filename for Thresholded projection of T14
+At least one output file exists, not overwriting Thresholding on T14
+Running stage Get microscope metadata on data track T14
+DataTrack) Retrieving filename for Microscope file of T14
+DataTrack) Retrieving filename for Microscope metadata of T14
+At least one output file exists, not overwriting Get microscope metadata on T14
+Running stage Create gaussian projection on data track T14
+DataTrack) Retrieving filename for Image stack of T14
+DataTrack) Retrieving filename for Gaussian projection of T14
+DataTrack) Retrieving filename for Surface height map of T14
+At least one output file exists, not overwriting Create gaussian projection on T14
+Running stage Generate stack on data track T14
+DataTrack) Retrieving filename for Microscope file of T14
+DataTrack) Retrieving filename for Image stack of T14
+At least one output file exists, not overwriting Generate stack on T14
+Running stage Get L numbers on data track T14
+DataTrack) Retrieving filename for Segmented image of T14
+DataTrack) Retrieving filename for L numbers of T14
+At least one output file exists, not overwriting Get L numbers on T14
+Running stage Cell shape analysis on data track T14
+DataTrack) Retrieving filename for Segmented image of T14
+DataTrack) Retrieving filename for CSA of T14
+Executing gencsa on data/newexp/segmented_image/T14.png to produce data/newexp/csa/T14.txt
+Running stage Segmentation on data track T01
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T01
+DataTrack) Retrieving filename for Gaussian projection of T01
+DataTrack) Retrieving filename for Thresholded projection of T01
+At least one output file exists, not overwriting Thresholding on T01
+Running stage Get microscope metadata on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Microscope metadata of T01
+At least one output file exists, not overwriting Get microscope metadata on T01
+Running stage Create gaussian projection on data track T01
+DataTrack) Retrieving filename for Image stack of T01
+DataTrack) Retrieving filename for Gaussian projection of T01
+DataTrack) Retrieving filename for Surface height map of T01
+At least one output file exists, not overwriting Create gaussian projection on T01
+Running stage Generate stack on data track T01
+DataTrack) Retrieving filename for Microscope file of T01
+DataTrack) Retrieving filename for Image stack of T01
+At least one output file exists, not overwriting Generate stack on T01
+Running stage Get L numbers on data track T01
+DataTrack) Retrieving filename for Segmented image of T01
+DataTrack) Retrieving filename for L numbers of T01
+At least one output file exists, not overwriting Get L numbers on T01
+Running stage Cell shape analysis on data track T01
+DataTrack) Retrieving filename for Segmented image of T01
+DataTrack) Retrieving filename for CSA of T01
+Executing gencsa on data/newexp/segmented_image/T01.png to produce data/newexp/csa/T01.txt
+Running stage Segmentation on data track T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T15
+DataTrack) Retrieving filename for Gaussian projection of T15
+DataTrack) Retrieving filename for Thresholded projection of T15
+At least one output file exists, not overwriting Thresholding on T15
+Running stage Get microscope metadata on data track T15
+DataTrack) Retrieving filename for Microscope file of T15
+DataTrack) Retrieving filename for Microscope metadata of T15
+At least one output file exists, not overwriting Get microscope metadata on T15
+Running stage Create gaussian projection on data track T15
+DataTrack) Retrieving filename for Image stack of T15
+DataTrack) Retrieving filename for Gaussian projection of T15
+DataTrack) Retrieving filename for Surface height map of T15
+At least one output file exists, not overwriting Create gaussian projection on T15
+Running stage Generate stack on data track T15
+DataTrack) Retrieving filename for Microscope file of T15
+DataTrack) Retrieving filename for Image stack of T15
+At least one output file exists, not overwriting Generate stack on T15
+Running stage Get L numbers on data track T15
+DataTrack) Retrieving filename for Segmented image of T15
+DataTrack) Retrieving filename for L numbers of T15
+At least one output file exists, not overwriting Get L numbers on T15
+Running stage Cell shape analysis on data track T15
+DataTrack) Retrieving filename for Segmented image of T15
+DataTrack) Retrieving filename for CSA of T15
+Executing gencsa on data/newexp/segmented_image/T15.png to produce data/newexp/csa/T15.txt
+Running stage Segmentation on data track T04
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T04
+DataTrack) Retrieving filename for Gaussian projection of T04
+DataTrack) Retrieving filename for Thresholded projection of T04
+At least one output file exists, not overwriting Thresholding on T04
+Running stage Get microscope metadata on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Microscope metadata of T04
+At least one output file exists, not overwriting Get microscope metadata on T04
+Running stage Create gaussian projection on data track T04
+DataTrack) Retrieving filename for Image stack of T04
+DataTrack) Retrieving filename for Gaussian projection of T04
+DataTrack) Retrieving filename for Surface height map of T04
+At least one output file exists, not overwriting Create gaussian projection on T04
+Running stage Generate stack on data track T04
+DataTrack) Retrieving filename for Microscope file of T04
+DataTrack) Retrieving filename for Image stack of T04
+At least one output file exists, not overwriting Generate stack on T04
+Running stage Get L numbers on data track T04
+DataTrack) Retrieving filename for Segmented image of T04
+DataTrack) Retrieving filename for L numbers of T04
+At least one output file exists, not overwriting Get L numbers on T04
+Running stage Cell shape analysis on data track T04
+DataTrack) Retrieving filename for Segmented image of T04
+DataTrack) Retrieving filename for CSA of T04
+Executing gencsa on data/newexp/segmented_image/T04.png to produce data/newexp/csa/T04.txt
+Running stage Segmentation on data track T00
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T00
+DataTrack) Retrieving filename for Gaussian projection of T00
+DataTrack) Retrieving filename for Thresholded projection of T00
+At least one output file exists, not overwriting Thresholding on T00
+Running stage Get microscope metadata on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Microscope metadata of T00
+At least one output file exists, not overwriting Get microscope metadata on T00
+Running stage Create gaussian projection on data track T00
+DataTrack) Retrieving filename for Image stack of T00
+DataTrack) Retrieving filename for Gaussian projection of T00
+DataTrack) Retrieving filename for Surface height map of T00
+At least one output file exists, not overwriting Create gaussian projection on T00
+Running stage Generate stack on data track T00
+DataTrack) Retrieving filename for Microscope file of T00
+DataTrack) Retrieving filename for Image stack of T00
+At least one output file exists, not overwriting Generate stack on T00
+Running stage Get L numbers on data track T00
+DataTrack) Retrieving filename for Segmented image of T00
+DataTrack) Retrieving filename for L numbers of T00
+At least one output file exists, not overwriting Get L numbers on T00
+Running stage Cell shape analysis on data track T00
+DataTrack) Retrieving filename for Segmented image of T00
+DataTrack) Retrieving filename for CSA of T00
+At least one output file exists, not overwriting Cell shape analysis on T00
+Running stage Segmentation on data track T16
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T16
+DataTrack) Retrieving filename for Gaussian projection of T16
+DataTrack) Retrieving filename for Thresholded projection of T16
+At least one output file exists, not overwriting Thresholding on T16
+Running stage Get microscope metadata on data track T16
+DataTrack) Retrieving filename for Microscope file of T16
+DataTrack) Retrieving filename for Microscope metadata of T16
+At least one output file exists, not overwriting Get microscope metadata on T16
+Running stage Create gaussian projection on data track T16
+DataTrack) Retrieving filename for Image stack of T16
+DataTrack) Retrieving filename for Gaussian projection of T16
+DataTrack) Retrieving filename for Surface height map of T16
+At least one output file exists, not overwriting Create gaussian projection on T16
+Running stage Generate stack on data track T16
+DataTrack) Retrieving filename for Microscope file of T16
+DataTrack) Retrieving filename for Image stack of T16
+At least one output file exists, not overwriting Generate stack on T16
+Running stage Get L numbers on data track T16
+DataTrack) Retrieving filename for Segmented image of T16
+DataTrack) Retrieving filename for L numbers of T16
+At least one output file exists, not overwriting Get L numbers on T16
+Running stage Cell shape analysis on data track T16
+DataTrack) Retrieving filename for Segmented image of T16
+DataTrack) Retrieving filename for CSA of T16
+Executing gencsa on data/newexp/segmented_image/T16.png to produce data/newexp/csa/T16.txt
+Running stage Segmentation on data track T07
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T07
+DataTrack) Retrieving filename for Gaussian projection of T07
+DataTrack) Retrieving filename for Thresholded projection of T07
+At least one output file exists, not overwriting Thresholding on T07
+Running stage Get microscope metadata on data track T07
+DataTrack) Retrieving filename for Microscope file of T07
+DataTrack) Retrieving filename for Microscope metadata of T07
+At least one output file exists, not overwriting Get microscope metadata on T07
+Running stage Create gaussian projection on data track T07
+DataTrack) Retrieving filename for Image stack of T07
+DataTrack) Retrieving filename for Gaussian projection of T07
+DataTrack) Retrieving filename for Surface height map of T07
+At least one output file exists, not overwriting Create gaussian projection on T07
+Running stage Generate stack on data track T07
+DataTrack) Retrieving filename for Microscope file of T07
+DataTrack) Retrieving filename for Image stack of T07
+At least one output file exists, not overwriting Generate stack on T07
+Running stage Get L numbers on data track T07
+DataTrack) Retrieving filename for Segmented image of T07
+DataTrack) Retrieving filename for L numbers of T07
+At least one output file exists, not overwriting Get L numbers on T07
+Running stage Cell shape analysis on data track T07
+DataTrack) Retrieving filename for Segmented image of T07
+DataTrack) Retrieving filename for CSA of T07
+Executing gencsa on data/newexp/segmented_image/T07.png to produce data/newexp/csa/T07.txt
+Running stage Segmentation on data track T06
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T06
+DataTrack) Retrieving filename for Gaussian projection of T06
+DataTrack) Retrieving filename for Thresholded projection of T06
+At least one output file exists, not overwriting Thresholding on T06
+Running stage Get microscope metadata on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Microscope metadata of T06
+At least one output file exists, not overwriting Get microscope metadata on T06
+Running stage Create gaussian projection on data track T06
+DataTrack) Retrieving filename for Image stack of T06
+DataTrack) Retrieving filename for Gaussian projection of T06
+DataTrack) Retrieving filename for Surface height map of T06
+At least one output file exists, not overwriting Create gaussian projection on T06
+Running stage Generate stack on data track T06
+DataTrack) Retrieving filename for Microscope file of T06
+DataTrack) Retrieving filename for Image stack of T06
+At least one output file exists, not overwriting Generate stack on T06
+Running stage Get L numbers on data track T06
+DataTrack) Retrieving filename for Segmented image of T06
+DataTrack) Retrieving filename for L numbers of T06
+At least one output file exists, not overwriting Get L numbers on T06
+Running stage Cell shape analysis on data track T06
+DataTrack) Retrieving filename for Segmented image of T06
+DataTrack) Retrieving filename for CSA of T06
+Executing gencsa on data/newexp/segmented_image/T06.png to produce data/newexp/csa/T06.txt
+Running stage Segmentation on data track T05
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T05
+DataTrack) Retrieving filename for Gaussian projection of T05
+DataTrack) Retrieving filename for Thresholded projection of T05
+At least one output file exists, not overwriting Thresholding on T05
+Running stage Get microscope metadata on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Microscope metadata of T05
+At least one output file exists, not overwriting Get microscope metadata on T05
+Running stage Create gaussian projection on data track T05
+DataTrack) Retrieving filename for Image stack of T05
+DataTrack) Retrieving filename for Gaussian projection of T05
+DataTrack) Retrieving filename for Surface height map of T05
+At least one output file exists, not overwriting Create gaussian projection on T05
+Running stage Generate stack on data track T05
+DataTrack) Retrieving filename for Microscope file of T05
+DataTrack) Retrieving filename for Image stack of T05
+At least one output file exists, not overwriting Generate stack on T05
+Running stage Get L numbers on data track T05
+DataTrack) Retrieving filename for Segmented image of T05
+DataTrack) Retrieving filename for L numbers of T05
+At least one output file exists, not overwriting Get L numbers on T05
+Running stage Cell shape analysis on data track T05
+DataTrack) Retrieving filename for Segmented image of T05
+DataTrack) Retrieving filename for CSA of T05
+Executing gencsa on data/newexp/segmented_image/T05.png to produce data/newexp/csa/T05.txt
+Running stage Segmentation on data track T17
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T17
+DataTrack) Retrieving filename for Gaussian projection of T17
+DataTrack) Retrieving filename for Thresholded projection of T17
+At least one output file exists, not overwriting Thresholding on T17
+Running stage Get microscope metadata on data track T17
+DataTrack) Retrieving filename for Microscope file of T17
+DataTrack) Retrieving filename for Microscope metadata of T17
+At least one output file exists, not overwriting Get microscope metadata on T17
+Running stage Create gaussian projection on data track T17
+DataTrack) Retrieving filename for Image stack of T17
+DataTrack) Retrieving filename for Gaussian projection of T17
+DataTrack) Retrieving filename for Surface height map of T17
+At least one output file exists, not overwriting Create gaussian projection on T17
+Running stage Generate stack on data track T17
+DataTrack) Retrieving filename for Microscope file of T17
+DataTrack) Retrieving filename for Image stack of T17
+At least one output file exists, not overwriting Generate stack on T17
+Running stage Get L numbers on data track T17
+DataTrack) Retrieving filename for Segmented image of T17
+DataTrack) Retrieving filename for L numbers of T17
+At least one output file exists, not overwriting Get L numbers on T17
+Running stage Cell shape analysis on data track T17
+DataTrack) Retrieving filename for Segmented image of T17
+DataTrack) Retrieving filename for CSA of T17
+Executing gencsa on data/newexp/segmented_image/T17.png to produce data/newexp/csa/T17.txt
+Running stage Segmentation on data track T10
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T10
+DataTrack) Retrieving filename for Gaussian projection of T10
+DataTrack) Retrieving filename for Thresholded projection of T10
+At least one output file exists, not overwriting Thresholding on T10
+Running stage Get microscope metadata on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Microscope metadata of T10
+At least one output file exists, not overwriting Get microscope metadata on T10
+Running stage Create gaussian projection on data track T10
+DataTrack) Retrieving filename for Image stack of T10
+DataTrack) Retrieving filename for Gaussian projection of T10
+DataTrack) Retrieving filename for Surface height map of T10
+At least one output file exists, not overwriting Create gaussian projection on T10
+Running stage Generate stack on data track T10
+DataTrack) Retrieving filename for Microscope file of T10
+DataTrack) Retrieving filename for Image stack of T10
+At least one output file exists, not overwriting Generate stack on T10
+Running stage Get L numbers on data track T10
+DataTrack) Retrieving filename for Segmented image of T10
+DataTrack) Retrieving filename for L numbers of T10
+At least one output file exists, not overwriting Get L numbers on T10
+Running stage Cell shape analysis on data track T10
+DataTrack) Retrieving filename for Segmented image of T10
+DataTrack) Retrieving filename for CSA of T10
+Executing gencsa on data/newexp/segmented_image/T10.png to produce data/newexp/csa/T10.txt
+Running stage Segmentation on data track T02
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T02
+DataTrack) Retrieving filename for Gaussian projection of T02
+DataTrack) Retrieving filename for Thresholded projection of T02
+At least one output file exists, not overwriting Thresholding on T02
+Running stage Get microscope metadata on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Microscope metadata of T02
+At least one output file exists, not overwriting Get microscope metadata on T02
+Running stage Create gaussian projection on data track T02
+DataTrack) Retrieving filename for Image stack of T02
+DataTrack) Retrieving filename for Gaussian projection of T02
+DataTrack) Retrieving filename for Surface height map of T02
+At least one output file exists, not overwriting Create gaussian projection on T02
+Running stage Generate stack on data track T02
+DataTrack) Retrieving filename for Microscope file of T02
+DataTrack) Retrieving filename for Image stack of T02
+At least one output file exists, not overwriting Generate stack on T02
+Running stage Get L numbers on data track T02
+DataTrack) Retrieving filename for Segmented image of T02
+DataTrack) Retrieving filename for L numbers of T02
+At least one output file exists, not overwriting Get L numbers on T02
+Running stage Cell shape analysis on data track T02
+DataTrack) Retrieving filename for Segmented image of T02
+DataTrack) Retrieving filename for CSA of T02
+Executing gencsa on data/newexp/segmented_image/T02.png to produce data/newexp/csa/T02.txt
+Running stage Segmentation on data track T12
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T12
+DataTrack) Retrieving filename for Gaussian projection of T12
+DataTrack) Retrieving filename for Thresholded projection of T12
+At least one output file exists, not overwriting Thresholding on T12
+Running stage Get microscope metadata on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Microscope metadata of T12
+At least one output file exists, not overwriting Get microscope metadata on T12
+Running stage Create gaussian projection on data track T12
+DataTrack) Retrieving filename for Image stack of T12
+DataTrack) Retrieving filename for Gaussian projection of T12
+DataTrack) Retrieving filename for Surface height map of T12
+At least one output file exists, not overwriting Create gaussian projection on T12
+Running stage Generate stack on data track T12
+DataTrack) Retrieving filename for Microscope file of T12
+DataTrack) Retrieving filename for Image stack of T12
+At least one output file exists, not overwriting Generate stack on T12
+Running stage Get L numbers on data track T12
+DataTrack) Retrieving filename for Segmented image of T12
+DataTrack) Retrieving filename for L numbers of T12
+At least one output file exists, not overwriting Get L numbers on T12
+Running stage Cell shape analysis on data track T12
+DataTrack) Retrieving filename for Segmented image of T12
+DataTrack) Retrieving filename for CSA of T12
+Executing gencsa on data/newexp/segmented_image/T12.png to produce data/newexp/csa/T12.txt
+Running stage Segmentation on data track T13
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T13
+DataTrack) Retrieving filename for Gaussian projection of T13
+DataTrack) Retrieving filename for Thresholded projection of T13
+At least one output file exists, not overwriting Thresholding on T13
+Running stage Get microscope metadata on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Microscope metadata of T13
+At least one output file exists, not overwriting Get microscope metadata on T13
+Running stage Create gaussian projection on data track T13
+DataTrack) Retrieving filename for Image stack of T13
+DataTrack) Retrieving filename for Gaussian projection of T13
+DataTrack) Retrieving filename for Surface height map of T13
+At least one output file exists, not overwriting Create gaussian projection on T13
+Running stage Generate stack on data track T13
+DataTrack) Retrieving filename for Microscope file of T13
+DataTrack) Retrieving filename for Image stack of T13
+At least one output file exists, not overwriting Generate stack on T13
+Running stage Get L numbers on data track T13
+DataTrack) Retrieving filename for Segmented image of T13
+DataTrack) Retrieving filename for L numbers of T13
+At least one output file exists, not overwriting Get L numbers on T13
+Running stage Cell shape analysis on data track T13
+DataTrack) Retrieving filename for Segmented image of T13
+DataTrack) Retrieving filename for CSA of T13
+Executing gencsa on data/newexp/segmented_image/T13.png to produce data/newexp/csa/T13.txt
+Running stage Segmentation on data track T03
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T03
+DataTrack) Retrieving filename for Gaussian projection of T03
+DataTrack) Retrieving filename for Thresholded projection of T03
+At least one output file exists, not overwriting Thresholding on T03
+Running stage Get microscope metadata on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Microscope metadata of T03
+At least one output file exists, not overwriting Get microscope metadata on T03
+Running stage Create gaussian projection on data track T03
+DataTrack) Retrieving filename for Image stack of T03
+DataTrack) Retrieving filename for Gaussian projection of T03
+DataTrack) Retrieving filename for Surface height map of T03
+At least one output file exists, not overwriting Create gaussian projection on T03
+Running stage Generate stack on data track T03
+DataTrack) Retrieving filename for Microscope file of T03
+DataTrack) Retrieving filename for Image stack of T03
+At least one output file exists, not overwriting Generate stack on T03
+Running stage Get L numbers on data track T03
+DataTrack) Retrieving filename for Segmented image of T03
+DataTrack) Retrieving filename for L numbers of T03
+At least one output file exists, not overwriting Get L numbers on T03
+Running stage Cell shape analysis on data track T03
+DataTrack) Retrieving filename for Segmented image of T03
+DataTrack) Retrieving filename for CSA of T03
+Executing gencsa on data/newexp/segmented_image/T03.png to produce data/newexp/csa/T03.txt
+Running stage Segmentation on data track T18
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T18
+DataTrack) Retrieving filename for Gaussian projection of T18
+DataTrack) Retrieving filename for Thresholded projection of T18
+At least one output file exists, not overwriting Thresholding on T18
+Running stage Get microscope metadata on data track T18
+DataTrack) Retrieving filename for Microscope file of T18
+DataTrack) Retrieving filename for Microscope metadata of T18
+At least one output file exists, not overwriting Get microscope metadata on T18
+Running stage Create gaussian projection on data track T18
+DataTrack) Retrieving filename for Image stack of T18
+DataTrack) Retrieving filename for Gaussian projection of T18
+DataTrack) Retrieving filename for Surface height map of T18
+At least one output file exists, not overwriting Create gaussian projection on T18
+Running stage Generate stack on data track T18
+DataTrack) Retrieving filename for Microscope file of T18
+DataTrack) Retrieving filename for Image stack of T18
+At least one output file exists, not overwriting Generate stack on T18
+Running stage Get L numbers on data track T18
+DataTrack) Retrieving filename for Segmented image of T18
+DataTrack) Retrieving filename for L numbers of T18
+At least one output file exists, not overwriting Get L numbers on T18
+Running stage Cell shape analysis on data track T18
+DataTrack) Retrieving filename for Segmented image of T18
+DataTrack) Retrieving filename for CSA of T18
+Executing gencsa on data/newexp/segmented_image/T18.png to produce data/newexp/csa/T18.txt
+Running stage Segmentation on data track T09
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T09
+DataTrack) Retrieving filename for Gaussian projection of T09
+DataTrack) Retrieving filename for Thresholded projection of T09
+At least one output file exists, not overwriting Thresholding on T09
+Running stage Get microscope metadata on data track T09
+DataTrack) Retrieving filename for Microscope file of T09
+DataTrack) Retrieving filename for Microscope metadata of T09
+At least one output file exists, not overwriting Get microscope metadata on T09
+Running stage Create gaussian projection on data track T09
+DataTrack) Retrieving filename for Image stack of T09
+DataTrack) Retrieving filename for Gaussian projection of T09
+DataTrack) Retrieving filename for Surface height map of T09
+At least one output file exists, not overwriting Create gaussian projection on T09
+Running stage Generate stack on data track T09
+DataTrack) Retrieving filename for Microscope file of T09
+DataTrack) Retrieving filename for Image stack of T09
+At least one output file exists, not overwriting Generate stack on T09
+Running stage Get L numbers on data track T09
+DataTrack) Retrieving filename for Segmented image of T09
+DataTrack) Retrieving filename for L numbers of T09
+At least one output file exists, not overwriting Get L numbers on T09
+Running stage Cell shape analysis on data track T09
+DataTrack) Retrieving filename for Segmented image of T09
+DataTrack) Retrieving filename for CSA of T09
+Executing gencsa on data/newexp/segmented_image/T09.png to produce data/newexp/csa/T09.txt
+Running stage Segmentation on data track T08
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track T08
+DataTrack) Retrieving filename for Gaussian projection of T08
+DataTrack) Retrieving filename for Thresholded projection of T08
+At least one output file exists, not overwriting Thresholding on T08
+Running stage Get microscope metadata on data track T08
+DataTrack) Retrieving filename for Microscope file of T08
+DataTrack) Retrieving filename for Microscope metadata of T08
+At least one output file exists, not overwriting Get microscope metadata on T08
+Running stage Create gaussian projection on data track T08
+DataTrack) Retrieving filename for Image stack of T08
+DataTrack) Retrieving filename for Gaussian projection of T08
+DataTrack) Retrieving filename for Surface height map of T08
+At least one output file exists, not overwriting Create gaussian projection on T08
+Running stage Generate stack on data track T08
+DataTrack) Retrieving filename for Microscope file of T08
+DataTrack) Retrieving filename for Image stack of T08
+At least one output file exists, not overwriting Generate stack on T08
+Running stage Get L numbers on data track T08
+DataTrack) Retrieving filename for Segmented image of T08
+DataTrack) Retrieving filename for L numbers of T08
+At least one output file exists, not overwriting Get L numbers on T08
+Running stage Cell shape analysis on data track T08
+DataTrack) Retrieving filename for Segmented image of T08
+DataTrack) Retrieving filename for CSA of T08
+Executing gencsa on data/newexp/segmented_image/T08.png to produce data/newexp/csa/T08.txt
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+Executing getmicmeta on test/tiled_data/microscope_file/ExpID3148_PA_T15.lif to produce test/tiled_data/microscope_metadata/ExpID3148_PA_T15.png
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+Not enough input files for applying Create gaussian projection to ExpID3148_PA_T15
+Running stage Generate stack on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+Executing mictostack on test/tiled_data/microscope_file/ExpID3148_PA_T15.lif to produce test/tiled_data/image_stack/ExpID3148_PA_T15
+Running stage Get L numbers on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Segmented image of ExpID3148_PA_T15
+Not enough input files for applying Get L numbers to ExpID3148_PA_T15
+Running stage Cell shape analysis on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Segmented image of ExpID3148_PA_T15
+Not enough input files for applying Cell shape analysis to ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+Not enough input files for applying Create gaussian projection to ExpID3148_PA_T15
+Running stage Generate stack on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+Executing mictostack on test/tiled_data/microscope_file/ExpID3148_PA_T15.lif to produce test/tiled_data/image_stack/ExpID3148_PA_T15
+Running stage Get L numbers on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Segmented image of ExpID3148_PA_T15
+Not enough input files for applying Get L numbers to ExpID3148_PA_T15
+Running stage Cell shape analysis on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Segmented image of ExpID3148_PA_T15
+Not enough input files for applying Cell shape analysis to ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+Executing getmicmeta on test/tiled_data/microscope_file/ExpID3148_PA_T15.lif to produce test/tiled_data/microscope_metadata/ExpID3148_PA_T15.png
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+Not enough input files for applying Create gaussian projection to ExpID3148_PA_T15
+Running stage Generate stack on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+Executing mictostack on test/tiled_data/microscope_file/ExpID3148_PA_T15.lif to produce test/tiled_data/image_stack/ExpID3148_PA_T15
+Running stage Get L numbers on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Segmented image of ExpID3148_PA_T15
+Not enough input files for applying Get L numbers to ExpID3148_PA_T15
+Running stage Cell shape analysis on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Segmented image of ExpID3148_PA_T15
+Not enough input files for applying Cell shape analysis to ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Executing stacktoproj on ['test/tiled_data/image_stack/ExpID3148_PA_T15'] to produce ['test/tiled_data/gaussian_projection/ExpID3148_PA_T15.png', 'test/tiled_data/surface_height_map/ExpID3148_PA_T15.png']
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15
+Running stage Segmentation on data track ExpID3148_PA_T15
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+Not enough input files for applying Thresholding to ExpID3148_PA_T15
+Running stage Get microscope metadata on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope file of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Microscope metadata of ExpID3148_PA_T15
+At least one output file exists, not overwriting Get microscope metadata on ExpID3148_PA_T15
+Running stage Create gaussian projection on data track ExpID3148_PA_T15
+DataTrack) Retrieving filename for Image stack of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Gaussian projection of ExpID3148_PA_T15
+DataTrack) Retrieving filename for Surface height map of ExpID3148_PA_T15

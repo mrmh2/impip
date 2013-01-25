@@ -31,18 +31,19 @@ def data_tracks_from_path(data_dir, pl):
     for ds_name in pl.dstages:
         ds_path = os.path.join(data_dir, pipeline.squash_name(ds_name))
         try:
-            #print 'Trying', ds_path
+            print 'Trying', ds_path
             for f in os.listdir(ds_path):
                 #print ds_name, ds_path, f
                 dt_name = get_prefix(f)
-                #print "dt_name is %s" % dt_name
+                print "dt_name is %s" % dt_name
                 if dt_name not in dts:
-                    #print "Creating %s" % dt_name
+                    print "Creating %s" % dt_name
                     dts[dt_name] = pipeline.DataTrack(dt_name, pl, data_dir)
                 ds = pl.dstages[ds_name]
                 du = pipeline.DataUnit(ds)
                 du.set_filename(os.path.join(ds_path, f))
                 dts[dt_name].add_data_unit(du)
+                print dts
         except OSError as e:
             if e.errno == 2:
                 # That directory doesn't exist

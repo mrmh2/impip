@@ -4,6 +4,7 @@ import os
 import itertools
 
 import pltools
+from get_data_files import get_data_files, get_files_dictionary
 
 from mutil import mapply
 
@@ -22,17 +23,28 @@ def multiple_datasets_from_path(path, pl):
 
     return [ds for ds in datasets if ds.size]
 
-
-plname = 'shortpip'
-pl = pltools.load_pipeline_by_name(plname)
-dss = multiple_datasets_from_path('data/ExpID3078', pl)
-
 def gen_noop_runner():
     def nr(ds):
         return pl.run(ds, noop=True)
 
     return nr
 
-nr = gen_noop_runner()
+def test_get_data_files():
+    get_files_dictionary('data/ExpID3078/plantA')
 
-mapply(nr, dss)
+
+def test_old_stuff():
+    plname = 'shortpip'
+    pl = pltools.load_pipeline_by_name(plname)
+    dss = multiple_datasets_from_path('data/ExpID3078', pl)
+    nr = gen_noop_runner()
+    mapply(nr, dss)
+
+def test_dataset_from_path(path, pl):
+    ds = pltools.dataset_from_dir('test', path, pl)
+
+if __name__ == '__main__':
+    path = 'test/tiled_data'
+    pl = pltools.load_pipeline_by_name('simpip')
+    test_dataset_from_path(path, pl)
+    #test_get_data_files()

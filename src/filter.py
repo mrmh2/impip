@@ -16,10 +16,10 @@ def get_binary_path(cfile, sname):
     base, current = os.path.split(os.getcwd())
     cfiles.append(os.path.join(base, 'config/tools.cfg'))
 
-
     base, current = os.path.split(sys.argv[0])
     up = os.path.split(base)[0]
     cfiles.append(os.path.join(up, 'config/tools.cfg'))
+    cfiles.append(os.path.join('/common/tools/impip', 'config/tools.cfg'))
 
     print cfiles
 

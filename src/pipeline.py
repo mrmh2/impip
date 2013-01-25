@@ -187,7 +187,14 @@ class ProcessStage(object):
         if any(existing_outfiles):
             logger.info("At least one output file exists, not overwriting %s on %s", 
                 self.name, data_track.name)
+            #print existing_outfiles
+            #print 'GOTIT'
+            #print self.name
             return
+
+        if self.name == 'Create gaussian projection':
+            print 'HERE'
+            sys.exit(0)
 
         outfiles = []
         for name, dstage in self.outputs.iteritems():
@@ -231,6 +238,11 @@ class Connector:
     def __init__(self, dfrom, dto, process):
         pass
 
+def fuzzy_name_match(dsn, dun):
+    print dsn, dun
+
+    sys.exit(0)
+
 class DataTrack:
     def __init__(self, name, pipeline, data_dir):
         self.name = name
@@ -244,9 +256,12 @@ class DataTrack:
         self.data_dir = dirname
 
     def get_filename(self, data_stage):
-        logger.debug("DataTrack) Retrieving filename for %s of %s" % (data_stage.name, self.name))
+        logger.info("DataTrack) Retrieving filename for %s of %s" % (data_stage.name, self.name))
         for dun, dunit in self.dunits.iteritems():
+            print dun
+            #print data_stage.name, dunit.dstage.name
             if data_stage.name == dunit.dstage.name:
+            #if fuzzy_name_match(data_stage.name, dunit.dstage.name):
                 return dun
 
         return None
