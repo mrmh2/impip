@@ -21493,3 +21493,91 @@ Running stage Generate stack on data track ExpID2823_T02
 DataTrack) Retrieving filename for Microscope file of ExpID2823_T02
 DataTrack) Retrieving filename for Image stack of ExpID2823_T02
 Executing mictostack on /common/data/ExpID2823/plantA/microscope_file/ExpID2823_T02.lsm to produce /common/data/ExpID2823/plantA/image_stack/ExpID2823_T02
+Running stage Get L numbers on data track ExpID2823_T02
+DataTrack) Retrieving filename for Segmented image of ExpID2823_T02
+Not enough input files for applying Get L numbers to ExpID2823_T02
+Running stage Cell shape analysis on data track ExpID2823_T02
+DataTrack) Retrieving filename for Segmented image of ExpID2823_T02
+Not enough input files for applying Cell shape analysis to ExpID2823_T02
+Running stage Segmentation on data track ExpID2823_T05
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID2823_T05
+DataTrack) Retrieving filename for Gaussian projection of ExpID2823_T05
+Not enough input files for applying Thresholding to ExpID2823_T05
+Running stage Get microscope metadata on data track ExpID2823_T05
+DataTrack) Retrieving filename for Microscope file of ExpID2823_T05
+DataTrack) Retrieving filename for Microscope metadata of ExpID2823_T05
+Executing getmicmeta on /common/data/ExpID2823/plantA/microscope_file/ExpID2823_T05.lsm to produce /common/data/ExpID2823/plantA/microscope_metadata/ExpID2823_T05.txt
+Running stage Create gaussian projection on data track ExpID2823_T05
+DataTrack) Retrieving filename for Image stack of ExpID2823_T05
+Not enough input files for applying Create gaussian projection to ExpID2823_T05
+Running stage Generate stack on data track ExpID2823_T05
+DataTrack) Retrieving filename for Microscope file of ExpID2823_T05
+DataTrack) Retrieving filename for Image stack of ExpID2823_T05
+Executing mictostack on /common/data/ExpID2823/plantA/microscope_file/ExpID2823_T05.lsm to produce /common/data/ExpID2823/plantA/image_stack/ExpID2823_T05
+Running stage Get L numbers on data track ExpID2823_T05
+DataTrack) Retrieving filename for Segmented image of ExpID2823_T05
+Not enough input files for applying Get L numbers to ExpID2823_T05
+Running stage Cell shape analysis on data track ExpID2823_T05
+DataTrack) Retrieving filename for Segmented image of ExpID2823_T05
+Not enough input files for applying Cell shape analysis to ExpID2823_T05
+Running stage Segmentation on data track ExpID2823_T04
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID2823_T04
+DataTrack) Retrieving filename for Gaussian projection of ExpID2823_T04
+Not enough input files for applying Thresholding to ExpID2823_T04
+Running stage Get microscope metadata on data track ExpID2823_T04
+DataTrack) Retrieving filename for Microscope file of ExpID2823_T04
+DataTrack) Retrieving filename for Microscope metadata of ExpID2823_T04
+Executing getmicmeta on /common/data/ExpID2823/plantA/microscope_file/ExpID2823_T04.lsm to produce /common/data/ExpID2823/plantA/microscope_metadata/ExpID2823_T04.txt
+Running stage Create gaussian projection on data track ExpID2823_T04
+DataTrack) Retrieving filename for Image stack of ExpID2823_T04
+Not enough input files for applying Create gaussian projection to ExpID2823_T04
+Running stage Generate stack on data track ExpID2823_T04
+DataTrack) Retrieving filename for Microscope file of ExpID2823_T04
+DataTrack) Retrieving filename for Image stack of ExpID2823_T04
+Executing mictostack on /common/data/ExpID2823/plantA/microscope_file/ExpID2823_T04.lsm to produce /common/data/ExpID2823/plantA/image_stack/ExpID2823_T04
+Running stage Get L numbers on data track ExpID2823_T04
+DataTrack) Retrieving filename for Segmented image of ExpID2823_T04
+Not enough input files for applying Get L numbers to ExpID2823_T04
+Running stage Cell shape analysis on data track ExpID2823_T04
+DataTrack) Retrieving filename for Segmented image of ExpID2823_T04
+Not enough input files for applying Cell shape analysis to ExpID2823_T04
+Running stage Segmentation on data track ExpID2823_T07
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track ExpID2823_T07
+DataTrack) Retrieving filename for Gaussian projection of ExpID2823_T07
+Not enough input files for applying Thresholding to ExpID2823_T07
+Running stage Get microscope metadata on data track ExpID2823_T07
+DataTrack) Retrieving filename for Microscope file of ExpID2823_T07
+DataTrack) Retrieving filename for Microscope metadata of ExpID2823_T07
+Executing getmicmeta on /common/data/ExpID2823/plantA/microscope_file/ExpID2823_T07.lsm to produce /common/data/ExpID2823/plantA/microscope_metadata/ExpID2823_T07.txt
+Running stage Create gaussian projection on data track ExpID2823_T07
+DataTrack) Retrieving filename for Image stack of ExpID2823_T07
+Not enough input files for applying Create gaussian projection to ExpID2823_T07
+Running stage Generate stack on data track ExpID2823_T07
+DataTrack) Retrieving filename for Microscope file of ExpID2823_T07
+DataTrack) Retrieving filename for Image stack of ExpID2823_T07
+Executing mictostack on /common/data/ExpID2823/plantA/microscope_file/ExpID2823_T07.lsm to produce /common/data/ExpID2823/plantA/image_stack/ExpID2823_T07
+Running stage Get L numbers on data track ExpID2823_T07
+DataTrack) Retrieving filename for Segmented image of ExpID2823_T07
+Not enough input files for applying Get L numbers to ExpID2823_T07
+Running stage Cell shape analysis on data track ExpID2823_T07
+DataTrack) Retrieving filename for Segmented image of ExpID2823_T07
+Not enough input files for applying Cell shape analysis to ExpID2823_T07
+Running stage Segmentation on data track Tile_ExpID2823_TL006_Sum
+Processing stage Segmentation has either no inputs or no outputs
+Running stage Thresholding on data track Tile_ExpID2823_TL006_Sum
+DataTrack) Retrieving filename for Gaussian projection of Tile_ExpID2823_TL006_Sum
+Not enough input files for applying Thresholding to Tile_ExpID2823_TL006_Sum
+Running stage Get microscope metadata on data track Tile_ExpID2823_TL006_Sum
+DataTrack) Retrieving filename for Microscope file of Tile_ExpID2823_TL006_Sum
+DataTrack) Retrieving filename for Microscope metadata of Tile_ExpID2823_TL006_Sum
+Executing getmicmeta on /common/data/ExpID2823/plantA/microscope_file/Tile_ExpID2823_TL006_Sum.lsm to produce /common/data/ExpID2823/plantA/microscope_metadata/Tile_ExpID2823_TL006_Sum.txt
+Running stage Create gaussian projection on data track Tile_ExpID2823_TL006_Sum
+DataTrack) Retrieving filename for Image stack of Tile_ExpID2823_TL006_Sum
+Not enough input files for applying Create gaussian projection to Tile_ExpID2823_TL006_Sum
+Running stage Generate stack on data track Tile_ExpID2823_TL006_Sum
+DataTrack) Retrieving filename for Microscope file of Tile_ExpID2823_TL006_Sum
+DataTrack) Retrieving filename for Image stack of Tile_ExpID2823_TL006_Sum
+Executing mictostack on /common/data/ExpID2823/plantA/microscope_file/Tile_ExpID2823_TL006_Sum.lsm to produce /common/data/ExpID2823/plantA/image_stack/Tile_ExpID2823_TL006_Sum
