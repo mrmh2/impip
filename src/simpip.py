@@ -34,7 +34,7 @@ def create_pipeline():
     pl.create_process_stage("Generate stack", 'mictostack', '')
     pl.create_process_stage("Create gaussian projection", "stacktoproj")
     pl.create_process_stage("Get L numbers", 'genlnumbers', '.txt')
-    pl.create_process_stage("Get microscope metadata", 'getmicmeta')
+    pl.create_process_stage("Get microscope metadata", 'getmicmeta', '.txt')
     pl.create_process_stage("Thresholding", 'threshold')
     pl.create_process_stage("Segmentation", 'segment')
     pl.create_process_stage("Cell shape analysis", 'gencsa', '.txt')
