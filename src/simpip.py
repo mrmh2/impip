@@ -29,7 +29,7 @@ def create_pipeline():
     pl.create_data_stage("New segmented image")
     pl.create_data_stage("False colour image")
     pl.create_data_stage("L numbers")
-    pl.create_data_stage("CSA")
+    pl.create_data_stage("Shape data")
 
     pl.create_process_stage("Generate stack", 'mictostack', '')
     pl.create_process_stage("Create gaussian projection", "stacktoproj")
@@ -39,7 +39,6 @@ def create_pipeline():
     pl.create_process_stage("Segmentation", 'segment')
     pl.create_process_stage("Cell shape analysis", 'gencsa', '.txt')
 
-    pl.connect_by_name("Segmented image", "Cell shape analysis", "CSA")
     pl.connect_by_name("Microscope file", "Get microscope metadata", "Microscope metadata")
     pl.connect_by_name("Microscope file", "Generate stack", "Image stack")
     pl.connect_by_name("Segmented image", "Get L numbers", "L numbers")
@@ -49,6 +48,8 @@ def create_pipeline():
     #pl.connect_by_name("Thresholded projection", "Segmentation", "False colour image")
 
     pl.connect_by_name("Gaussian projection", "Thresholding", "Thresholded projection")
+
+    pl.connect_by_name("Segmented image", "Cell shape analysis", "Shape data")
 
     ps = pl.pstages["Create gaussian projection"]
     ps.output_map = ["Gaussian projection", "Surface height map"]

@@ -20,7 +20,7 @@ def get_binary_path(cfile):
 
     config = ConfigParser.SafeConfigParser()
     config.read(cfile)
-    sname = __name__
+    sname = 'getmicmeta'
     
     try:
         result = config.get(sname, 'bin')
@@ -31,16 +31,19 @@ def get_binary_path(cfile):
     return result.replace("'", "")
 
 def read_metadata(lines):
-
     splitl = [l.split(':') for l in lines]
     params = dict([p for p in splitl if len(p) > 1])
 
     return params
 
-def trans(pval):
+def trans_zeiss(pval):
     return float(pval) * 1e6
 
+def trans_leica(pval):
+    return float(pval)
+
 def get_param_pairs(param_dict):
+
 
     param_list = [
         ['voxel size x', 'HardwareSetting|ScannerSettingRecord|dblVoxelX 0'],
@@ -49,7 +52,18 @@ def get_param_pairs(param_dict):
         ['x position', 'HardwareSetting|FilterSettingRecord|DM6000 Stage Pos x 0'],
         ['y position', 'HardwareSetting|FilterSettingRecord|DM6000 Stage Pos y 0']]
 
-    return [(name, trans(param_dict[key])) for name, key in param_list]
+
+    try:
+        param_dict = [(name, trans_zeiss(param_dict[key])) for name, key in param_list]
+    except KeyError:
+        # If we don't have those values, this is not Zeiss metadata
+        param_list = [
+            ['voxel size x', 'VoxelSizeX'],
+            ['voxel size y', 'VoxelSizeY'],
+            ['voxel size z', 'VoxelSizeZ']]
+        param_dict = [(name, trans_leica(param_dict[key])) for name, key in param_list]
+    
+    return param_dict
 
 def write_config(pps, output_file):
 
@@ -102,6 +116,8 @@ def main():
     except IndexError:
         print __doc__
         sys.exit(2)
+
+    process(input_file, output_file)
 
 if __name__ == '__main__':
     main()

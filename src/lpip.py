@@ -2,7 +2,7 @@
 
 # Define new pipeline with some data stages
 # Original images
-# Segmented images
+# Segmented correcteds
 # L numbers
 
 # stage1 = lif file
@@ -17,11 +17,11 @@ import pipeline
 def create_pipeline():
     pl = pipeline.Pipeline("Pavement cells")
     
-    pl.create_data_stage("Segmented image")
+    pl.create_data_stage("Segmented corrected")
     pl.create_data_stage("L numbers")
 
     pl.create_process_stage("Get L numbers", 'genlnumbers', '.txt')
 
-    pl.connect_by_name("Segmented image", "Get L numbers", "L numbers")
+    pl.connect_by_name("Segmented corrected", "Get L numbers", "L numbers")
 
     return pl

@@ -187,14 +187,7 @@ class ProcessStage(object):
         if any(existing_outfiles):
             logger.info("At least one output file exists, not overwriting %s on %s", 
                 self.name, data_track.name)
-            #print existing_outfiles
-            #print 'GOTIT'
-            #print self.name
             return
-
-        if self.name == 'Create gaussian projection':
-            print 'HERE'
-            sys.exit(0)
 
         outfiles = []
         for name, dstage in self.outputs.iteritems():

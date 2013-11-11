@@ -5,6 +5,7 @@ import subprocess
 import shutil
 
 from filter import get_binary_path, get_parfile_path
+from parse_csa import convert_csa_file
 
 gencfile = "Output_CellShapeAnalysis/out/out.dat"
 
@@ -15,7 +16,7 @@ def process(input_filename, output_filename):
 def generate_csa(sf, lf):
     csacommand = get_binary_path('config/tools.cfg', 'gencsa')
     parfile = get_parfile_path('config/tools.cfg', 'gencsa')
- 
+
     runcommand = [csacommand, parfile, "out", sf]
 
     #print "Generating %s" % lf
@@ -39,7 +40,8 @@ def generate_csa(sf, lf):
     #    for id in sorted(lnumbers):
     #        nicely = ['%10f' % float(lc) for lc in lnumbers[id][2:16]]
     #        f.write('%s: %s\n' % (id, ''.join(nicely)))
-    shutil.copy(gencfile, lf)
+    #shutil.copy(gencfile, lf)
+    convert_csa_file(gencfile, lf) 
 
 def main():
     try:
